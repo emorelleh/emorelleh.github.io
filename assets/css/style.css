@@ -1,0 +1,165 @@
+:root {
+  --ink: #1f2b32;
+  --muted: #627078;
+  --paper: #ffffff;
+  --soft: #f3f6f7;
+  --line: #d9e1e4;
+  --accent: #0b5d69;
+  --accent-dark: #07454f;
+  --max-width: 1080px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.68;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.14em;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-dark);
+}
+
+header,
+main,
+footer {
+  width: min(calc(100% - 2.5rem), var(--max-width));
+  margin: 0 auto;
+}
+
+header {
+  padding: 2rem 0 1.25rem;
+  border-top: 7px solid var(--accent);
+}
+
+header p:first-child {
+  margin: 0;
+}
+
+header p:first-child a {
+  color: var(--ink);
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+header p:nth-child(2) {
+  margin: 0.25rem 0 1.25rem;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+hr {
+  margin: 1.25rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+main {
+  min-height: 68vh;
+  max-width: 820px;
+  padding: 3.5rem 0 5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.1rem, 5vw, 3.5rem);
+}
+
+h2 {
+  margin-top: 2.75rem;
+  font-size: 1.55rem;
+}
+
+h3 {
+  margin-top: 1.75rem;
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  max-width: 74ch;
+}
+
+ul,
+ol {
+  padding-left: 1.3rem;
+}
+
+li + li {
+  margin-top: 0.45rem;
+}
+
+footer {
+  padding: 1.25rem 0 2rem;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 17px;
+  }
+
+  header,
+  main,
+  footer {
+    width: min(calc(100% - 2rem), var(--max-width));
+  }
+
+  header {
+    padding-top: 1.4rem;
+  }
+
+  main {
+    padding-top: 2.5rem;
+  }
+}
