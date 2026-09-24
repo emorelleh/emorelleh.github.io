@@ -6,23 +6,27 @@ description: "Academic website of Esteban Morelle-Hungría"
 
 # Esteban Morelle-Hungría
 
-Researcher and Associate Professor in Green/Blue Criminology, Earth System Law and EcoCrimes.
+Researcher and Associate Professor working at the intersection of green and blue criminology, Earth-system law, environmental criminal law, and ecological justice.
 
-I work at the crossroads of law, criminology, and ecology, where I research how legal systems respond to environmental harm and how we might rethink justice in the face of ecological collapse. I’m scientific coordinator of the Blue Governance Laboratory – BlueGovLab at the Universitat Jaume I.
-I currently co-coordinate the Research Center for Criminal Law, Criminology and Intelligence, and lead the IbizaPreservation Blue Crime Partnership. I also represent the World Commission on Environmental Law in the Spanish Committee of the IUCN.
-I hold a PhD in Law (University of Alicante) and am now pursuing a second PhD in Marine Ecology at the University of the Balearic Islands, because the law alone doesn’t explain everything—and the ocean, especially, demands a more integrated perspective.
-My research is deeply interdisciplinary and includes projects like Ocean Crime Narratives (ERC), CRIMICLIMA, SOFTMAR, and OBSERMAR-CV. I’ve published over 40 scientific works and in 2023 received the Best Research Article Award from Kriminologie – Das On-line-Journal for my study on underwater noise as an ecological crime.
-My current work explores topics like green criminology, ecocide, restorative ecological justice, pollution, and how to integrate planetary boundaries into criminal law. I also teach courses on criminal law, criminology, and criminal policy, and supervise theses related to environmental law and ecocriminology.
-When I’m not teaching or writing, I try to connect research with real-world efforts to protect biodiversity and rethink our relationship with the planet. This site is a place to share my work and connect with others—across disciplines, across borders, and across oceans.
+I examine how legal and criminal justice systems respond to environmental harm, and how justice can be rethought under conditions of ecological disruption. My work combines legal analysis, criminology, and ecology to address environmental crimes, socioecological harms, pollution, ecocide, and the governance challenges posed by planetary boundaries.
 
+I am Scientific Coordinator of the Blue Governance Laboratory (BlueGovLab) at Universitat Jaume I. I also co-coordinate the Research Center for Criminal Law, Criminology and Intelligence, lead the IbizaPreservation Blue Crime Partnership, and represent the World Commission on Environmental Law on the Spanish National Committee of the IUCN.
 
-## Research lines
+[Read my profile]({{ '/profile/' | relative_url }})
 
-- Green Criminology and Blue Criminology
-- Earth System Criminal Law
-- Ecological Law
-- Environmental Harms and Ecogovernance
+## Research areas
 
-## In construction
+- Green and blue criminology
+- Earth-system criminal law and ecological law
+- Environmental harms, ecocide, and environmental justice
+- Criminal policy, pollution, and socioecological governance
 
-this web is in construction.
+## Current work
+
+My current research brings together projects on ocean crime narratives, climate-related criminological challenges, marine social-ecological systems, and environmental observation. It also explores restorative ecological justice and ways of integrating planetary boundaries into criminal law.
+
+[Explore my research]({{ '/research/' | relative_url }})
+
+## Website under development
+
+This website is currently being developed. It will progressively include information about research, publications, projects, teaching, resources, and contact details.
