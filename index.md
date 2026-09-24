@@ -50,7 +50,7 @@ I hold a PhD in Law from the University of Alicante, with European Doctorate dis
 - Planetary boundaries, climate change, and socioecological harms
 - Restorative ecological justice and environmental policy
 
-You can read more about my [research]({{ '/research/' | relative_url }}).
+You can read more about my [research]({{ ['/research/' | relative_url](https://portalcientific.uji.es/investigadores/1327563/detalle) }}).
 
 ## Teaching {#teaching}
 
