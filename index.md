@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Inicio
-description: "Research Web of Esteban Morelle-Hungría"
+title: Home
+description: "Academic website of Esteban Morelle-Hungría"
 ---
 
 # Esteban Morelle-Hungría
