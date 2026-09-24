@@ -1,0 +1,17 @@
+title: "Esteban Morelle-Hungría"
+description: "Researcher and Associate Professor in Green/Blue Criminology, Earth System Law and SocioEcological Conflicts"
+
+url: "https://emorelleh.github.io"
+baseurl: ""
+
+lang: "es"
+timezone: "Europe/Madrid"
+
+markdown: kramdown
+permalink: /noticias/:year/:month/:day/:title/
+
+name: "Esteban Morelle-Hungría"
+role: "Associate Professor"
+affiliation: "[Universidad Jaume I - BlueGobLab]"
+email: "[morelle@uji.es]"
+location: "Castelló, País Valencià, España"
