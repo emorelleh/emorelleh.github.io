@@ -72,7 +72,7 @@ I explore restorative approaches to environmental harm and the conditions under 
 
 **EU BlueCrime and Ocean Governance (BLUECRIME-GOV)** addresses ocean governance and environmental crime through cooperation, research, and knowledge exchange.
 
-- **Period:** From October 2026
+- **Period:** From December 2026
 - **Institution:** Universitat Jaume I
 - **Status:** Selected for funding; grant agreement preparation
 
@@ -84,7 +84,7 @@ The **Blue Governance Laboratory (BlueGovLab)** is an interdisciplinary initiati
 - **Institution:** Universitat Jaume I
 - **Role:** Scientific Coordinator
 
-### IbizaPreservation Blue Crime Partnership
+### IbizaPreservation Blue Crime initiative
 
 The **IbizaPreservation Blue Crime initiative** develops research, training, public engagement, and knowledge-transfer activities on marine environmental harm, environmental crime, and ecological justice, with particular attention to Ibiza and Formentera.
 
@@ -98,7 +98,7 @@ My research is developed through collaborative and interdisciplinary structures 
 
 - **Research Centre for Criminal Law, Criminology and Intelligence**, Universitat Jaume I — Co-coordinator.
 - **Blue Governance Laboratory (BlueGovLab)**, Universitat Jaume I — Scientific Coordinator.
-- **Legal and Criminological Clinic**, Universitat Jaume I — Director 2023-2026.
+- **Legal and Criminological Clinic**, Universitat Jaume I — Director.
 - **IbizaPreservation Blue Crime initiative**, Universitat Jaume I — Director.
 - **Iberian Centre for Biodiversity**, University of Alicante — Research collaborator.
 - **Interdisciplinary Laboratory on Climate Change**, University of the Balearic Islands — Research collaborator.
