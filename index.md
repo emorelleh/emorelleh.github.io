@@ -12,8 +12,6 @@ I examine how legal and criminal justice systems respond to environmental harm, 
 
 I am Scientific Coordinator of the Blue Governance Laboratory (BlueGovLab) at Universitat Jaume I. I also co-coordinate the Research Center for Criminal Law, Criminology and Intelligence, lead the IbizaPreservation Blue Crime Partnership, and represent the World Commission on Environmental Law on the Spanish National Committee of the IUCN.
 
-[Read my profile]({{ '/profile/' | relative_url }})
-
 ## Research areas
 
 - Green and blue criminology
@@ -24,8 +22,6 @@ I am Scientific Coordinator of the Blue Governance Laboratory (BlueGovLab) at Un
 ## Current work
 
 My current research brings together projects on ocean crime narratives, climate-related criminological challenges, marine social-ecological systems, and environmental observation. It also explores restorative ecological justice and ways of integrating planetary boundaries into criminal law.
-
-[Explore my research]({{ '/research/' | relative_url }})
 
 ## Website under development
 
