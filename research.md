@@ -133,6 +133,7 @@ permalink: /research/
       </div>
 
       <div class="research-project">
+       <a href="https://bluegovlab.uji.es">
         <h3>Blue Governance Laboratory (BlueGovLab)</h3>
         <p class="project-meta">
           Scientific Coordinator · Universitat Jaume I · Since 2025
