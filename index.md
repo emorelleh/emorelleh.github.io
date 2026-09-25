@@ -17,8 +17,7 @@ description: "Academic website of Esteban Morelle-Hungría"
   </ul>
 </aside>
 
-<div class="page-content" markdown="1">
-
+ <div class="page-content" markdown="1">
 # Esteban Morelle-Hungría
 
 <div class="contact-details">
