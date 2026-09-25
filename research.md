@@ -18,8 +18,7 @@ permalink: /research/
   </ul>
 </aside>
 
-<div class="page-content" markdown="1">
-
+ <div class="page-content" markdown="1">
 # Research
 
 ## Approach {#approach}
