@@ -5,61 +5,34 @@
   --link: #326a98;
   --paper: #ffffff;
   --page-width: 1360px;
-  --profile-width: 420px;
-  --toc-width: 170px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  background: var(--paper);
   color: var(--ink);
+  background: var(--paper);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.66;
 }
+a { color: var(--link); text-underline-offset: 0.13em; }
+a:hover, a:focus-visible { color: #194a6d; }
+img { max-width: 100%; height: auto; }
 
-a {
-  color: var(--link);
-  text-underline-offset: 0.13em;
-}
-
-a:hover,
-a:focus-visible {
-  color: #194a6d;
-}
-
-.site-header {
-  border-bottom: 1px solid var(--line);
-  background: #ffffff;
-}
-
-.header-inner,
-.site-main,
-.site-footer {
+.site-header { border-bottom: 1px solid var(--line); background: #fff; }
+.header-inner, .site-main, .site-footer {
   width: min(calc(100% - 4rem), var(--page-width));
   margin: 0 auto;
 }
-
 .header-inner {
   display: flex;
   align-items: center;
   gap: 2.75rem;
   min-height: 82px;
 }
-
-.university-brand {
-  color: var(--ink);
-  text-decoration: none;
-}
-
+.university-brand { flex: none; color: var(--ink); text-decoration: none; }
 .university-brand-placeholder {
   display: inline-flex;
   align-items: center;
@@ -68,7 +41,6 @@ a:focus-visible {
   font-weight: 700;
   letter-spacing: -0.06em;
 }
-
 .university-brand-placeholder span {
   font-size: 0.6rem;
   font-weight: 600;
@@ -76,67 +48,28 @@ a:focus-visible {
   line-height: 1.05;
   text-transform: uppercase;
 }
-
-.main-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem 1.55rem;
-}
-
-.main-nav a {
-  color: #444;
-  font-size: 0.92rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.main-nav a:hover,
-.main-nav a:focus-visible {
-  color: var(--link);
-  text-decoration: underline;
-}
-
-.site-main {
-  min-height: 78vh;
-  padding: 4rem 0 5rem;
-}
+.main-nav { display: flex; flex-wrap: wrap; gap: 0.45rem 1.55rem; }
+.main-nav a { color: #444; font-size: 0.92rem; text-decoration: none; white-space: nowrap; }
+.main-nav a:hover, .main-nav a:focus-visible { color: var(--link); text-decoration: underline; }
+.site-main { min-height: 78vh; padding: 4rem 0 5rem; }
 
 .academic-home {
   display: grid;
-  grid-template-columns: var(--profile-width) minmax(0, 1fr);
-  gap: 4.5rem;
+  grid-template-columns: minmax(0, 390px) minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
   align-items: start;
 }
-
-.academic-profile {
-  position: sticky;
-  top: 2rem;
-  text-align: center;
-}
-
-.photo-frame {
-  display: grid;
-  place-items: center;
+.academic-profile { min-width: 0; text-align: center; }
+.profile-photo {
+  display: block;
   width: 100%;
-  aspect-ratio: 1.25 / 1;
-  margin-bottom: 2rem;
-  background: #ececea;
-  color: var(--muted);
-  font-size: 0.9rem;
+  max-width: 390px;
+  height: auto;
+  margin: 0 auto 1.8rem;
+  border-radius: 3px;
 }
-
-.academic-profile h1 {
-  margin: 0 0 1.25rem;
-  font-size: 2.05rem;
-  line-height: 1.1;
-}
-
-.academic-title {
-  margin: 0 0 1rem;
-  color: var(--muted);
-  font-size: 1rem;
-}
-
+.academic-profile h1 { margin: 0 0 1rem; font-size: 2rem; line-height: 1.12; }
+.academic-title { margin: 0 0 1rem; color: var(--muted); font-size: 1rem; }
 .academic-address {
   margin: 0 0 1.8rem;
   color: var(--muted);
@@ -144,523 +77,60 @@ a:focus-visible {
   font-style: normal;
   line-height: 1.75;
 }
-
-.academic-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem;
-}
-
+.academic-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
 .academic-links a {
-  displayTienes razón: **no está igual**. La web actual se ha convertido en una disposición de una sola columna: la ficha de perfil queda arriba y el contenido aparece debajo. El modelo que quieres tiene una estructura distinta y más precisa:
-
-- Cabecera fija o visualmente estable, con logo UJI a la izquierda y menú inmediatamente a la derecha.
-- Debajo, una columna izquierda fija y relativamente estrecha.
-- A la derecha, una columna de contenido amplia.
-- Dentro de esa columna derecha, el texto se divide a su vez en:
-  - contenido principal a la izquierda;
-  - índice “On this page” a la derecha.
-- La foto ocupa gran parte de la columna izquierda.
-- El nombre se sitúa **debajo de la foto**, no encima del contenido.
-- La biografía empieza en la parte superior de la columna derecha, alineada con la fotografía. [120]
-
-El error está en que mi CSS anterior permitió que la columna izquierda ocupara demasiado ancho o que el navegador reorganizara la cuadrícula. Vamos a imponer una cuadrícula clara: `350px` para el perfil, contenido flexible a la derecha, y dentro del contenido una segunda cuadrícula de texto + índice.
-
-## Qué debes cambiar
-
-No cambies `default.html` ahora. Solo sustituye:
-
-1. `index.md`
-2. `assets/css/style.css`
-
-## 1. Sustituye `index.md`
-
-Abre `index.md`, borra todo y pega esto:
-
-```html
-***
-layout: default
-title: Home
-description: "Academic website of Esteban Morelle-Hungría"
-***
-
-<div class="academic-page">
-
-  <aside class="academic-profile">
-    <div class="profile-photo-placeholder">
-      Professional photograph
-    </div>
-
-    <h1>Esteban Morelle-Hungría</h1>
-
-    <p class="academic-position">
-      Associate Professor of Criminal Law and Criminology
-    </p>
-
-    <address class="academic-address">
-      Edifici JC2<br>
-      Facultat de Ciències Jurídiques i Econòmiques<br>
-      Universitat Jaume I<br>
-      Av. de Vicent Sos Baynat, s/n<br>
-      12071 Castelló, Spain
-    </address>
-
-    <div class="academic-links">
-      <a href="mailto:esteban.morelle@uji.es">Email</a>
-      <a href="[https://orcid.org/0000-0001-5149-1792](https://orcid.org/0000-0001-5149-1792)">ORCID</a>
-      <a href="[https://www.scopus.com/authid/detail.uri?authorId=57220128052](https://www.scopus.com/authid/detail.uri?authorId=57220128052)">Scopus</a>
-      <a href="[https://www.webofscience.com/wos/author/record/W-2902-2019](https://www.webofscience.com/wos/author/record/W-2902-2019)">ResearcherID</a>
-      <a href="[https://github.com/emorelleh](https://github.com/emorelleh)">GitHub</a>
-    </div>
-  </aside>
-
-  <div class="academic-right">
-
-    <div class="academic-main">
-
-      <section id="bio">
-        <h2>Bio</h2>
-
-        <p>
-          I am an Associate Professor of Criminal Law and Criminology at Universitat Jaume I.
-          My research is located at the intersection of law, criminology, and ecology, with
-          particular attention to green and blue criminology, environmental criminal law,
-          ecological governance, and marine environmental harm.
-        </p>
-
-        <p>
-          I am Scientific Coordinator of the Blue Governance Laboratory (BlueGovLab) and
-          co-coordinate the Research Centre for Criminal Law, Criminology and Intelligence.
-          I also direct the Aula IbizaPreservation de Criminalidad Azul, a collaborative
-          initiative dedicated to research, teaching, and knowledge exchange on marine
-          environmental harm and ecological justice.
-        </p>
-
-        <p>
-          I hold a PhD in Law from the University of Alicante, with European Doctorate
-          distinction. I am currently undertaking doctoral research in Marine Ecology at the
-          University of the Balearic Islands. My work combines legal and criminological analysis
-          with socioecological research on biodiversity, climate change, pollution, marine
-          ecosystems, and environmental justice.
-        </p>
-      </section>
-
-      <section id="research-interests">
-        <h2>Research interests</h2>
-
-        <ul>
-          <li>Green and blue criminology</li>
-          <li>Environmental criminal law and ecocide</li>
-          <li>Marine environmental harm and ocean governance</li>
-          <li>Climate change and planetary boundaries</li>
-          <li>Restorative ecological justice</li>
-        </ul>
-
-        <p>
-          Read more about my
-          <a href="{{ '/research/' | relative_url }}">research interests</a>.
-        </p>
-      </section>
-
-      <section id="teaching">
-        <h2>Teaching</h2>
-
-        <p>
-          I teach criminal law, criminology, and criminal policy at undergraduate and
-          postgraduate level. I supervise undergraduate and master's dissertations and
-          contribute to teaching innovation and practice-based learning.
-        </p>
-
-        <p>
-          Read more about my
-          <a href="{{ '/teaching/' | relative_url }}">teaching</a>.
-        </p>
-      </section>
-
-      <section id="selected-publications">
-        <h2>Selected publications</h2>
-
-        <p>A selection of publications illustrating my research interests:</p>
-
-        <ul class="publication-list">
-          <li>
-            Morelle-Hungría, E., South, N., White, R., Dobson, J. Y.,
-            Fonfría Subirós, E., &amp; Bordehore Fontanet, C. (2026).
-            <a href="[https://doi.org/10.1007/s10612-026-09904-0](https://doi.org/10.1007/s10612-026-09904-0)">
-              Bluewashing and the illusion of sustainability in the cruise industry
-            </a>. <em>Critical Criminology</em>.
-          </li>
-
-          <li>
-            Dobson, J. Y., Bordehore Fontanet, C., Fonfría, E. S., &amp;
-            Morelle-Hungría, E. (2023). <em>Underwater noise pollution as an
-            ecological crime: A global problem in the Anthropocene</em>.
-            <em>Kriminologie – Das Online-Journal</em>.
-          </li>
-
-          <li>
-            Morelle-Hungría, E., &amp; García Ruiz, A. (2023).
-            <em>Criminología verde. Criminalidad y daños ecológicos</em>.
-            Aranzadi Civitas.
-          </li>
-        </ul>
-
-        <p>
-          See the
-          <a href="{{ '/publications/' | relative_url }}">full list of research publications</a>.
-        </p>
-      </section>
-
-      <section id="affiliations">
-        <h2>Affiliations</h2>
-
-        <ul class="affiliation-list">
-          <li>Blue Governance Laboratory (BlueGovLab), Universitat Jaume I — Scientific Coordinator</li>
-          <li>Research Centre for Criminal Law, Criminology and Intelligence, Universitat Jaume I — Co-coordinator</li>
-          <li>Aula IbizaPreservation de Criminalidad Azul, Universitat Jaume I — Director</li>
-          <li>IUCN World Commission on Environmental Law — Representative on the Spanish National Committee</li>
-        </ul>
-      </section>
-
-    </div>
-
-    <aside class="academic-toc" aria-label="On this page">
-      <h2>On this page</h2>
-      <nav>
-        <a href="#bio">Bio</a>
-        <a href="#research-interests">Research interests</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#selected-publications">Selected publications</a>
-        <a href="#affiliations">Affiliations</a>
-      </nav>
-    </aside>
-
-  </div>
-</div>
-```
-
-Guarda con:
-
-```text
-Refine two-column academic home structure
-```
-
-## 2. Sustituye `style.css`
-
-Abre `assets/css/style.css`, selecciona todo y pega esto:
-
-```css
-:root {
-  --ink: #252525;
-  --muted: #777777;
-  --line: #e3e3e3;
-  --link: #35678a;
-  --paper: #ffffff;
-  --page-width: 1260px;
-  --profile-width: 360px;
-  --toc-width: 170px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.68;
-}
-
-a {
-  color: var(--link);
-  text-underline-offset: 0.14em;
-}
-
-a:hover,
-a:focus-visible {
-  color: #1c4561;
-}
-
-.site-header {
-  border-bottom: 1px solid var(--line);
-}
-
-.header-inner,
-.site-main,
-.site-footer {
-  width: min(calc(100% - 4rem), var(--page-width));
-  margin-inline: auto;
-}
-
-.header-inner {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  min-height: 78px;
-}
-
-.university-brand {
-  flex: none;
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.university-brand-placeholder {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: -0.06em;
-}
-
-.university-brand-placeholder span {
-  font-size: 0.58rem;
-  line-height: 1.05;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.main-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-}
-
-.main-nav a {
-  color: #3f3f3f;
-  font-size: 0.92rem;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.main-nav a:hover,
-.main-nav a:focus-visible {
-  color: var(--link);
-  text-decoration: underline;
-}
-
-.site-main {
-  min-height: 78vh;
-  padding-block: 3.6rem 5rem;
-}
-
-.academic-page {
-  display: grid;
-  grid-template-columns: var(--profile-width) minmax(0, 1fr);
-  gap: 4.5rem;
-  align-items: start;
-}
-
-.academic-profile {
-  position: sticky;
-  top: 2rem;
-  text-align: center;
-}
-
-.profile-photo-placeholder {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  margin-bottom: 2rem;
-  background: #ededeb;
-  color: var(--muted);
-  font-size: 0.84rem;
-}
-
-.academic-profile h1 {
-  margin: 0 0 1rem;
-  font-size: 2rem;
-  line-height: 1.12;
-}
-
-.academic-position {
-  margin: 0 0 1.2rem;
-  color: var(--muted);
-  font-size: 0.98rem;
-}
-
-.academic-address {
-  margin: 0 0 1.7rem;
-  color: var(--muted);
-  font-size: 0.92rem;
-  font-style: normal;
-  line-height: 1.8;
-}
-
-.academic-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.55rem;
-}
-
-.academic-links a {
-  padding: 0.36rem 0.58rem;
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
   border: 1px solid #d7d7d7;
   border-radius: 4px;
   color: #606060;
-  font-size: 0.77rem;
+  font-size: 0.78rem;
   text-decoration: none;
 }
-
-.academic-links a:hover,
-.academic-links a:focus-visible {
-  border-color: var(--link);
-  color: var(--link);
-}
-
-.academic-right {
-  display: grid;
-  grid-template-columns: minmax(0, 700px) var(--toc-width);
-  gap: 3.5rem;
-  align-items: start;
-}
+.academic-links a:hover, .academic-links a:focus-visible { border-color: var(--link); color: var(--link); }
 
 .academic-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 155px;
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
+  align-items: start;
   min-width: 0;
 }
-
-.academic-main section + section {
-  margin-top: 3.4rem;
-}
-
-.academic-main h2 {
-  margin: 0 0 1.2rem;
-  font-size: 1.65rem;
-  line-height: 1.2;
-}
-
-.academic-main p,
-.academic-main ul {
-  margin: 0 0 1.15rem;
-}
-
-.academic-main ul {
-  padding-left: 1.25rem;
-}
-
-.academic-main li + li {
-  margin-top: 0.5rem;
-}
-
-.publication-list,
-.affiliation-list {
-  padding-left: 0 !important;
-  list-style: none;
-}
-
-.publication-list li {
-  margin-bottom: 1rem;
-}
-
-.affiliation-list li {
-  margin-bottom: 0.7rem;
-  color: var(--muted);
-}
-
-.academic-toc {
-  position: sticky;
-  top: 2rem;
-  padding-top: 0.25rem;
-  font-size: 0.88rem;
-}
-
-.academic-toc h2 {
-  margin: 0 0 0.8rem;
-  color: var(--ink);
-  font-size: 0.9rem;
-}
-
-.academic-toc nav {
-  display: grid;
-  gap: 0.55rem;
-}
-
+.academic-reading { min-width: 0; }
+.academic-reading section + section { margin-top: 3.3rem; }
+.academic-reading h2 { margin: 0 0 1.2rem; font-size: 1.65rem; line-height: 1.2; }
+.academic-reading p, .academic-reading ul { margin: 0 0 1.15rem; }
+.academic-reading ul { padding-left: 1.25rem; }
+.academic-reading li + li { margin-top: 0.5rem; }
+.reference-list { padding-left: 0 !important; list-style: none; }
+.reference-list li { margin-bottom: 0.9rem; }
+.academic-toc { position: sticky; top: 1.5rem; font-size: 0.88rem; }
+.academic-toc p { margin: 0 0 0.75rem; font-weight: 700; }
 .academic-toc a {
+  display: block;
+  margin-bottom: 0.5rem;
   color: var(--muted);
   text-decoration: none;
 }
-
-.academic-toc a:hover,
-.academic-toc a:focus-visible {
-  color: var(--link);
-  text-decoration: underline;
-}
-
+.academic-toc a:hover, .academic-toc a:focus-visible { color: var(--link); text-decoration: underline; }
 .site-footer {
   padding: 1.5rem 0 2.5rem;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.8rem;
 }
+.site-footer p { margin: 0; }
 
-.site-footer p {
-  margin: 0;
+@media (max-width: 1080px) {
+  .academic-home { grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 2.5rem; }
+  .academic-main { grid-template-columns: minmax(0, 1fr); }
+  .academic-toc { display: none; }
 }
-
-@media (max-width: 1120px) {
-  .academic-page {
-    grid-template-columns: 300px minmax(0, 1fr);
-    gap: 3rem;
-  }
-
-  .academic-right {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .academic-toc {
-    display: none;
-  }
-}
-
 @media (max-width: 760px) {
-  .header-inner {
-    display: block;
-    padding-block: 1rem;
-  }
-
-  .main-nav {
-    margin-top: 0.8rem;
-    gap: 0.45rem 1rem;
-  }
-
-  .header-inner,
-  .site-main,
-  .site-footer {
-    width: min(calc(100% - 2rem), var(--page-width));
-  }
-
-  .site-main {
-    padding-top: 2.25rem;
-  }
-
-  .academic-page {
-    display: block;
-  }
-
-  .academic-profile {
-    position: static;
-    max-width: 400px;
-    margin: 0 auto 3.5rem;
-  }
-}
-```
-
-.profile-photo {
-  display: block;
-  width: 100%;
-  max-width: 360px;
-  height: auto;
-  margin: 0 auto 2rem;
-  object-fit: contain;
+  .header-inner { display: block; padding: 1rem 0; }
+  .main-nav { margin-top: 0.8rem; gap: 0.45rem 1rem; }
+  .header-inner, .site-main, .site-footer { width: min(calc(100% - 2rem), var(--page-width)); }
+  .site-main { padding-top: 2.25rem; }
+  .academic-home { display: block; }
+  .academic-profile { max-width: 390px; margin: 0 auto 3.5rem; }
 }
