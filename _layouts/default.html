@@ -8,9 +8,14 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header">
     <div class="header-inner">
-      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+      <a class="university-brand" href="{{ '/' | relative_url }}" aria-label="Esteban Morelle-Hungría — Home">
+        <span class="university-brand-placeholder">UJI <span>Universitat<br>Jaume I</span></span>
+      </a>
+
       <nav class="main-nav" aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/research/' | relative_url }}">Research</a>
@@ -22,7 +27,7 @@
     </div>
   </header>
 
-  <main class="site-main">
+  <main class="site-main" id="main-content">
     {{ content }}
   </main>
 
