@@ -656,26 +656,10 @@ a:focus-visible {
 }
 ```
 
-Guarda con:
-
-```text
-Match academic two-column profile layout
-```
-
-## Por qué ahora sí será distinto
-
-Tu captura actual muestra que la columna izquierda se está rompiendo porque el diseño anterior no separaba con suficiente rigidez el bloque de perfil del bloque de contenido. Este CSS usa dos niveles de cuadrícula:
-
-```text
-Nivel 1:  perfil fijo | contenido derecho
-Nivel 2:  texto       | índice On this page
-```
-
-Por tanto:
-
-- La foto y la ficha no se mezclarán con la bio.
-- El contenido se colocará a la derecha desde el inicio de la página.
-- El índice estará a la derecha de la bio solo en pantallas anchas.
-- En portátil o móvil se adaptará sin destruir la lectura.
-
-No añadas aún el logo o foto: primero aplica estas dos sustituciones y envíame una nueva captura. Entonces ajustaremos tamaños concretos —anchura de foto, ancho de la columna izquierda y separación entre columnas— para que se aproxime visualmente al modelo que has mostrado.
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+  border-radius: 4px;
+}
