@@ -8,9 +8,9 @@ description: "Academic website of Esteban Morelle-Hungría"
 
   <aside class="academic-profile">
 
-   <img
+  <img
   class="profile-photo"
- src="{{ '/assets/css/assets/images/esteban-morelle-hungria-pencil.jpg' | relative_url }}"
+  src="https://emorelleh.github.io/assets/css/assets/images/esteban-morelle-hungria-pencil.jpg"
   alt="Esteban Morelle-Hungría speaking at an academic event"
 >
 
