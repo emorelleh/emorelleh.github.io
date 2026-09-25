@@ -97,7 +97,7 @@ description: "Academic website of Esteban Morelle-Hungría"
         <ul class="reference-list">
           <li>Morelle-Hungría, E., South, N., White, R., Dobson, J. Y., Fonfría Subirós, E., &amp; Bordehore Fontanet, C. (2026). <a href="https://doi.org/10.1007/s10612-026-09904-0">Bluewashing and the illusion of sustainability in the cruise industry</a>. <em>Critical Criminology</em>.</li>
           <li>Dobson, J. Y., Bordehore Fontanet, C., Fonfría, E. S., &amp; Morelle-Hungría, E. (2023). Underwater noise pollution as an ecological crime: A global problem in the Anthropocene. <em>Kriminologie – Das Online-Journal</em>.</li>
-          <li>Morelle-Hungría, E., &amp; García Ruiz, A. (2023). <em>Criminología verde. Criminalidad y daños ecológicos</em>. Aranzadi Civitas.</li>
+          <li>Morelle-Hungría, E. (2026) <a href="https://doi.org/10.1007/s10612-026-09904-0](https://doi.org/10.12688/openreseurope.24170.2"><em>Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments </em>. Open Research Europe.</li>
         </ul>
         <p>Explore the <a href="{{ '/publications/' | relative_url }}">full list of publications</a>.</p>
       </section>
