@@ -1,115 +1,185 @@
 ---
 layout: default
 title: Research
-description: "Research areas, projects, and academic collaborations of Esteban Morelle-Hungría"
+description: "Research on green and blue criminology, environmental criminal law, and ecological harm"
 permalink: /research/
 ---
 
-<div class="page-layout">
+<div class="research-page">
 
-<aside class="on-this-page" aria-label="On this page">
-  <h2>On this page</h2>
-  <ul>
-    <li><a href="#approach">Approach</a></li>
-    <li><a href="#research-areas">Research areas</a></li>
-    <li><a href="#current-projects">Current projects</a></li>
-    <li><a href="#research-structures">Research structures</a></li>
-    <li><a href="#networks">Networks and collaborations</a></li>
-  </ul>
-</aside>
+  <article class="research-content">
 
- <div class="page-content" markdown="1">
-# Research
+    <header class="research-intro">
+      <p class="research-eyebrow">Research</p>
+      <h1>Environmental harm, crime, and ecological justice</h1>
+      <p class="research-lead">
+        I study how criminal law and criminology respond to damage affecting
+        ecosystems, marine life, and the communities connected to them.
+        My work brings legal analysis into conversation with ecological evidence.
+      </p>
+    </header>
 
-## Approach {#approach}
+    <section id="research-perspective">
+      <h2>Research perspective</h2>
 
-My research examines environmental harm, ecological crime, and legal responses to socioecological disruption. It brings together criminal law, criminology, environmental law, and marine ecology to study how legal systems define, prevent, and respond to harm affecting ecosystems, non-human life, and communities.
+      <p>
+        Environmental harm does not always fit neatly into legal definitions of crime.
+        Damage to an ecosystem can accumulate over time, involve several activities,
+        and become visible only after ecological conditions have changed.
+        A response focused solely on individual offences may miss these wider processes.
+      </p>
 
-A central concern of my work is the relationship between environmental damage and criminal justice. I am particularly interested in the limits of conventional legal categories when ecological harm is cumulative, transboundary, slow-moving, or difficult to attribute to a single offender. This perspective informs my work on marine pollution, underwater noise, biodiversity loss, climate change, ecocide, and restorative ecological justice.
+      <p>
+        My research asks what criminal law can do in these circumstances, where its
+        limits lie, and how criminology can help identify harms that remain outside
+        formal definitions of illegality. I approach these questions through green
+        and blue criminology, environmental criminal law, ecological law, and marine
+        ecology.
+      </p>
 
-## Research areas {#research-areas}
+      <p>
+        I am particularly interested in the relationship between legal categories
+        and ecological realities: how harm is measured, whose interests are protected,
+        what counts as evidence, and which forms of accountability or restoration
+        are possible.
+      </p>
+    </section>
 
-### Green and blue criminology
+    <section id="research-areas">
+      <h2>Research areas</h2>
 
-I study environmental crime and harm from green and blue criminological perspectives, with particular attention to marine ecosystems, illegal fishing, coastal degradation, biodiversity loss, underwater noise, and pollution.
+      <div class="research-area">
+        <h3>Green and blue criminology</h3>
+        <p>
+          I examine environmental crime and harm on land and at sea, including
+          marine pollution, illegal fishing, biodiversity loss, and the effects of
+          human activity on coastal and ocean ecosystems.
+        </p>
+      </div>
 
-### Environmental criminal law and ecocide
+      <div class="research-area">
+        <h3>Environmental criminal law and ecocide</h3>
+        <p>
+          This work considers how criminal law defines ecological damage and
+          protects ecosystems. It includes research on environmental offences,
+          ecocentric interpretations of legal interests, and proposals concerning
+          ecocide as an international crime.
+        </p>
+      </div>
 
-My work explores the criminal protection of ecosystems and biodiversity, including the legal treatment of ecological harm, the concept of ecocide, and the development of ecocentric approaches to environmental criminal law.
+      <div class="research-area">
+        <h3>Marine ecosystems and environmental evidence</h3>
+        <p>
+          My marine-focused research addresses underwater noise, brine discharges,
+          impacts on <em>Posidonia oceanica</em>, and methods for identifying
+          ecological damage. I am interested in how biological and ecological
+          evidence can inform legal and criminological analysis.
+        </p>
+      </div>
 
-### Ocean governance and marine environmental harm
+      <div class="research-area">
+        <h3>Climate change and planetary boundaries</h3>
+        <p>
+          I explore how climate change and planetary boundaries challenge established
+          approaches to criminal policy, environmental protection, security,
+          and responsibility for socioecological harm.
+        </p>
+      </div>
 
-I examine legal and institutional responses to marine environmental harm, including the governance of coastal and marine ecosystems, ocean pollution, blue economy activities, and the protection of *Posidonia oceanica* and other vulnerable ecological systems.
+      <div class="research-area">
+        <h3>Ecological and restorative justice</h3>
+        <p>
+          This line of work considers ecosystems as affected entities and asks
+          what meaningful repair, prevention, and accountability might look like
+          after environmental harm.
+        </p>
+      </div>
+    </section>
 
-### Climate change and planetary boundaries
+    <section id="selected-projects">
+      <h2>Selected projects</h2>
 
-I investigate the implications of climate change and planetary boundaries for criminal policy, criminology, environmental law, and conceptions of security and justice.
+      <div class="research-project">
+        <h3>CRIMICLIMA</h3>
+        <p class="project-meta">Principal Investigator · Universitat Jaume I · 2024–2026</p>
+        <p>
+          A criminological analysis of the effectiveness of environmental criminal
+          policy in the context of the climate emergency.
+        </p>
+      </div>
 
-### Restorative ecological justice
+      <div class="research-project">
+        <h3>Ocean Crime Narratives</h3>
+        <p class="project-meta">Research team · University of the Balearic Islands · 2022–2027</p>
+        <p>
+          A study of the narratives through which environmental crime and harm
+          at sea have been understood and represented.
+        </p>
+      </div>
 
-I explore restorative approaches to environmental harm and the conditions under which legal, institutional, and community-based responses can contribute to ecological repair, accountability, and prevention.
+      <div class="research-project">
+        <h3>BlueGovLab</h3>
+        <p class="project-meta">Scientific Coordinator · Universitat Jaume I · Since 2025</p>
+        <p>
+          An interdisciplinary laboratory connecting research on ocean governance,
+          environmental protection, marine biodiversity, and public policy.
+        </p>
+      </div>
 
-## Current projects {#current-projects}
+      <div class="research-project">
+        <h3>Aula IbizaPreservation de Criminalidad Azul</h3>
+        <p class="project-meta">Director · Universitat Jaume I · Since 2025</p>
+        <p>
+          A collaboration focused on marine environmental harm in Ibiza and
+          Formentera through research, training, and knowledge exchange.
+        </p>
+      </div>
 
-### Ocean Crime Narratives
+      <p class="research-note">
+        Further projects and collaborations will be added as their public
+        descriptions and links are confirmed.
+      </p>
+    </section>
 
-**Ocean Crime Narratives: A polyhedral assessment of hegemonic discourse on environmental crime and harm at sea (1982–present)** is an ERC-funded project based at the University of the Balearic Islands. The project examines the narratives, concepts, and frameworks used to understand environmental crime and harm at sea.
+    <section id="methods">
+      <h2>Methods and collaboration</h2>
 
-- **Period:** 2022–2027
-- **Institution:** University of the Balearic Islands
-- **Role:** Research collaborator
+      <p>
+        My work combines legal and case-law analysis with criminological approaches
+        to environmental harm. Increasingly, it also engages with ecological
+        indicators, marine research, and evidence that can help describe damage
+        beyond the boundaries of a single legal case.
+      </p>
 
-### CRIMICLIMA
+      <p>
+        These questions require collaboration across disciplines. I work with
+        researchers in law, criminology, marine ecology, environmental science,
+        and related fields, as well as with organisations concerned with the
+        protection of marine and coastal environments.
+      </p>
+    </section>
 
-**CRIMICLIMA** examines the effectiveness of environmental criminal policy in the context of the climate emergency. The project focuses on the criminological and legal dimensions of environmental protection and climate-related harm.
+    <section id="research-outputs">
+      <h2>Research outputs</h2>
 
-- **Period:** 2024–2026
-- **Institution:** Universitat Jaume I
-- **Role:** Principal Investigator
+      <p>
+        My <a href="{{ '/publications/' | relative_url }}">publications</a>
+        include work on underwater noise, marine pollution, environmental
+        criminal law, ecocide, <em>Posidonia oceanica</em>, and green criminology.
+        As this website develops, I will also add links to publicly available
+        datasets, reports, and research materials.
+      </p>
+    </section>
 
-### EU BlueCrime and Ocean Governance
+  </article>
 
-**EU BlueCrime and Ocean Governance (BLUECRIME-GOV)** addresses ocean governance and environmental crime through cooperation, research, and knowledge exchange.
+  <aside class="research-toc" aria-label="On this page">
+    <p>On this page</p>
+    <a href="#research-perspective">Research perspective</a>
+    <a href="#research-areas">Research areas</a>
+    <a href="#selected-projects">Selected projects</a>
+    <a href="#methods">Methods and collaboration</a>
+    <a href="#research-outputs">Research outputs</a>
+  </aside>
 
-- **Period:** From December 2026
-- **Institution:** Universitat Jaume I
-- **Status:** Selected for funding; grant agreement preparation
-
-### Blue Governance Laboratory
-
-The **Blue Governance Laboratory (BlueGovLab)** is an interdisciplinary initiative at Universitat Jaume I focused on sustainable ocean governance, environmental security, biodiversity, blue economy, and marine environmental justice.
-
-- **Period:** Since 2025
-- **Institution:** Universitat Jaume I
-- **Role:** Scientific Coordinator
-
-### IbizaPreservation Blue Crime initiative
-
-The **IbizaPreservation Blue Crime initiative** develops research, training, public engagement, and knowledge-transfer activities on marine environmental harm, environmental crime, and ecological justice, with particular attention to Ibiza and Formentera.
-
-- **Period:** Since 2025
-- **Institution:** Universitat Jaume I, in collaboration with IbizaPreservation
-- **Role:** Director
-
-## Research structures {#research-structures}
-
-My research is developed through collaborative and interdisciplinary structures that connect criminal law, criminology, environmental studies, marine ecology, public policy, and applied research.
-
-- **Research Centre for Criminal Law, Criminology and Intelligence**, Universitat Jaume I — Co-coordinator.
-- **Blue Governance Laboratory (BlueGovLab)**, Universitat Jaume I — Scientific Coordinator.
-- **Legal and Criminological Clinic**, Universitat Jaume I — Director.
-- **IbizaPreservation Blue Crime initiative**, Universitat Jaume I — Director.
-- **Iberian Centre for Biodiversity**, University of Alicante — Research collaborator.
-- **Interdisciplinary Laboratory on Climate Change**, University of the Balearic Islands — Research collaborator.
-
-## Networks and collaborations {#networks}
-
-My work is informed by national and international collaboration across criminology, environmental law, marine studies, and ecological governance.
-
-- I represent the **IUCN World Commission on Environmental Law** on the Spanish National Committee of IUCN.
-- I have collaborated with the **Spanish Society of Criminological Research**, including its Green Criminology research group.
-- I participate in the **Iberian Network of Coastal Lawyers**.
-- My research has included collaborations and research stays with the University of Bergen, the University of Santiago de Compostela, the University of Minho, the University of Alicante, and other academic partners.
-
-</div>
 </div>
