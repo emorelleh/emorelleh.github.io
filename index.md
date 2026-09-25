@@ -10,7 +10,7 @@ description: "Academic website of Esteban Morelle-Hungría"
 
    <img
   class="profile-photo"
-  src="{{ '/assets/images/esteban-morelle-hungria-pencil.jpg' | relative_url }}"
+ src="{{ '/assets/css/assets/images/esteban-morelle-hungria-pencil.jpg' | relative_url }}"
   alt="Esteban Morelle-Hungría speaking at an academic event"
 >
 
