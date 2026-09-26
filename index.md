@@ -194,16 +194,16 @@ description: "Environmental criminal law, green and blue criminology, marine har
         <ul class="reference-list">
           <li>
             <strong><a href="https://www.uji.es/">Universitat Jaume I</a></strong><br>
-            Professor, researcher, and academic leader in criminal law, criminology, and environmental research.
+            Associate Professor, researcher, and academic leader in criminal law, criminology, and environmental research.
           </li>
 
           <li>
-            <strong>Clínica Jurídica y Criminológica, Universitat Jaume I</strong><br>
+            <strong><a href="https://clinilex.uji.es/"><strong>Clínica Jurídica y Criminológica, Universitat Jaume I</strong><br>
             Director 2023-2026.
           </li>
 
           <li>
-            <strong>Laboratorio de Gobernanza Azul (BlueGovLab), Universitat Jaume I</strong><br>
+            <strong><a href="https://bluegovlab.uji.es/"><strong>Laboratorio de Gobernanza Azul (BlueGovLab), Universitat Jaume I</strong><br>
             Scientific Coordinator.
           </li>
 
@@ -213,12 +213,12 @@ description: "Environmental criminal law, green and blue criminology, marine har
           </li>
 
           <li>
-            <strong>Aula IbizaPreservation de Criminalidad Azul</strong><br>
+            <strong><a href="https://aulacriminalidadazul.uji.es/"><strong>Aula IbizaPreservation de Criminalidad Azul</strong><br>
             Director.
           </li>
 
           <li>
-            <strong>Ocean Crime Narratives (OCN)</strong><br>
+            <strong><a href="https://ocn.uib.cat/"><strong>Ocean Crime Narratives (OCN)</strong><br>
             Research team member.
           </li>
         </ul>
