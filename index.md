@@ -131,16 +131,6 @@ description: "Academic website of Esteban Morelle-Hungría"
       full list of publications
     </a>.
   </p>
-</section>
-      <section id="affiliations">
-        <h2>Affiliations</h2>
-        <ul class="reference-list">
-          <li>Blue Governance Laboratory (BlueGovLab), Universitat Jaume I | Scientific Coordinator</li>
-          <li>Research Centre for Criminal Law, Criminology and Intelligence, Universitat Jaume I | Co-coordinator</li>
-          <li>Aula IbizaPreservation de Criminalidad Azul, Universitat Jaume I | Director</li>
-          <li>Legal and Criminological Clinic, Universitat Jaume I | Director</li>
-          <li>IUCN World Commission on Environmental Law | Representative on the Spanish National Committee</li>
-        </ul>
       </section>
 
     </div>
