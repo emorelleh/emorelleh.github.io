@@ -1,105 +1,195 @@
 ---
-title: "Esteban Morelle-Hungría"
-subtitle: | 
-  <small>
-  Edifici JC2, Facultat de Ciències Jurídiques i Econòmiques <br/>
-  Universitat Jaume I (UJI) <br/>
-  Av. de Vicent Sos Baynat, s/n. <br/>
-  12071 Castelló, Spain
-  </small>
-
-image: images/ESTEVE.jpg
-about:
-    template: trestles
-    image-shape: rounded
-    links:
-        - text: "{{< fa at >}} Email"
-          url: mailto:esteban.morelle@uji.es
-        - text: "{{< fa brands orcid >}} ORCID 0000-0001-5149-1792"
-          url: https://orcid.org/0000-0001-5149-1792
-        - text: "{{< ai google-scholar >}} Google Scholar"
-          url: https://scholar.google.com/citations?user=SXUl9Y0AAAAJ&hl=en
-        - text: "{{< ai researcherid >}} ResearcherID W-2902-2019"
-          url: https://www.webofscience.com/wos/author/record/W-2902-2019
-        - text: "{{< ai scopus >}} Scopus ID 57220128052"
-          url: https://www.scopus.com/authid/detail.uri?authorId=57220128052
-        - text: "{{< ai dialnet >}} Dialnet"
-          url: https://dialnet.unirioja.es/servlet/autor?codigo=4408546
-        - text: "{{< ai open-data >}} UJI scientific portal"
-          url: https://portalcientific.uji.es/investigadores/1327563/detalle
-        - text: "{{< fa globe >}} Personal website"
-          url: https://emorellehungria.com
-comments: false
+layout: default
+title: Esteban Morelle-Hungría
+description: "Environmental criminal law, green and blue criminology, marine harm, and ecological justice"
 ---
 
-## Bio
+<div class="academic-home">
 
-I am a **Profesor Permanente Laboral** at the Universitat Jaume I (UJI), accredited as *Profesor Titular de Universidad*. My teaching and research are located in the fields of Criminology, Criminal Law, and criminal policy.
+  <aside class="academic-profile">
+    <img
+      class="profile-photo"
+      src="{{ '/assets/css/assets/images/esteban-morelle-hungria-pencil.jpg' | relative_url }}"
+      alt="Portrait of Esteban Morelle-Hungría"
+    >
 
-My academic trajectory has progressively focused on green criminology, environmental criminal law, and ecological governance, with particular attention to marine environmental crime, ecological justice, and ocean protection. I combine legal and criminological training with an interdisciplinary orientation reinforced by my current doctoral training in Marine Ecology.
+    <h1>Esteban Morelle-Hungría</h1>
 
-I hold a PhD in Law from the University of Alicante, with European Doctorate distinction. My doctoral thesis, supervised by Mercedes Ortiz García, was entitled *Nuevos retos en la protección del medio marino. La reconexión verde: entre el derecho ambiental y la criminología para la conservación de la biodiversidad*.
+    <p class="academic-title">
+      Lecturer and researcher in criminal law, criminology, environmental harm, and marine ecosystems
+    </p>
 
-My work connects criminal-law analysis, critical criminology, ecology, and socio-environmental studies. I research ecological harm, biodiversity loss, marine pollution, underwater noise, climate change, ecocide, ocean governance, and criminal-law responses to environmental damage.
+    <address class="academic-address">
+      Room: <a href="https://www.uji.es/u/NB3311DI">NB3311DI</a><br>
+      Edificio Investigación II, 3rd floor<br>
+      Universitat Jaume I (UJI)<br>
+      Av. Sos Baynat, s/n<br>
+      12071 Castellón, Spain
+    </address>
 
-## Research interests
+    <div class="academic-links">
+      <a href="mailto:esteban.morelle@uji.es">Email</a>
+      <a href="https://orcid.org/0000-0001-5149-1792">ORCID</a>
+      <a href="https://scholar.google.com/">Google Scholar</a>
+      <a href="https://www.webofscience.com/wos/author/record/W-2902-2019">ResearcherID</a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=57220128052">Scopus</a>
+      <a href="https://dialnet.unirioja.es/">Dialnet</a>
+      <a href="https://github.com/emorelleh">GitHub</a>
+      <a href="https://portalcientific.uji.es/investigadores/1327563/detalle">UJI scientific portal</a>
+    </div>
+  </aside>
 
-- **Green and blue criminology**: Environmental crime and harm, ecological justice, marine environmental crime, illegal fishing, biodiversity loss, and the prevention of damage to coastal and ocean ecosystems.
+  <div class="academic-main">
 
-- **Environmental criminal law and ecocide**: Ecological offences, ecocentric approaches to legally protected interests, criminal policy, and the development of ecocide as an international crime.
+    <article class="academic-reading">
 
-- **Marine ecosystems and environmental evidence**: Underwater noise, desalination brine, *Posidonia oceanica*, marine biodiversity, and ecological indicators for the assessment of environmental harm.
+      <section id="biography">
+        <h2>Biography</h2>
 
-- **Climate change, planetary boundaries, and ecological governance**: Climate justice, planetary boundaries, environmental security, ocean governance, restorative justice, and socio-ecological responsibility.
+        <p>
+          I am a legal scholar and criminologist working at the intersection of criminal law,
+          environmental harm, and marine ecosystems. My research focuses on how criminal law and
+          criminology respond to ecological damage, biodiversity loss, pollution, and forms of harm
+          affecting seas, coasts, and other vulnerable environments.
+        </p>
 
-You can read more about my [research interests](research).
+        <p>
+          My work brings legal analysis into conversation with ecological evidence, marine science,
+          and interdisciplinary approaches to environmental protection. I am particularly interested
+          in the relationship between legal categories and ecological realities: how harm is defined,
+          how damage is evidenced, whose interests are protected, and which forms of accountability
+          and restoration are possible after environmental harm.
+        </p>
 
-## Teaching
+        <p>
+          I work on these questions through green and blue criminology, environmental criminal law,
+          ecological law, and marine ecology. My academic activity also includes teaching, research
+          supervision, public engagement, and interdisciplinary collaboration on marine governance,
+          environmental justice, and ecological restoration.
+        </p>
+      </section>
 
-I teach in undergraduate, double-degree, and master’s programmes in Criminal Law, Criminology, criminal justice, and related interdisciplinary fields. My teaching has included Criminal Law I and II, Theory and Enforcement of Punishment, Specific Forms of Crime, environmental crime, gender violence, external placements, bachelor’s dissertations, master’s dissertations, and research projects.
+      <section id="research-interests">
+        <h2>Research interests</h2>
 
-I currently teach and supervise students at the Universitat Jaume I, particularly in the Degree in Law, the Degree in Criminology and Security, the Double Degree in Law and Business Administration, and the Master’s Degree in Criminal Justice. I have also taught at the Universitat Oberta de Catalunya and the Universitat de les Illes Balears.
+        <h3>Green and blue criminology</h3>
+        <p>
+          I study environmental crime and harm on land and at sea, including marine pollution,
+          biodiversity loss, illegal fishing, and the broader effects of human activity on
+          coastal and ocean ecosystems.
+        </p>
 
-My teaching uses case-based, seminar-based, clinical, and experiential learning approaches. I have led or participated in educational innovation projects, including the project *ECO-CRIM-2023*, focused on case-based learning in economic and ecological crime.
+        <h3>Environmental criminal law and ecocide</h3>
+        <p>
+          My work examines how criminal law defines ecological harm and protects ecosystems.
+          This includes environmental offences, ecocentric interpretations of legal interests,
+          and debates concerning ecocide and international criminal law.
+        </p>
 
-You can read more in the [teaching section](teaching).
+        <h3>Marine ecosystems and environmental evidence</h3>
+        <p>
+          I am interested in underwater noise, brine discharges, impacts on <em>Posidonia oceanica</em>,
+          and methods for identifying ecological damage through biological and ecological indicators.
+        </p>
 
-## Selected papers
+        <h3>Climate change and planetary boundaries</h3>
+        <p>
+          I explore how climate change and planetary boundaries challenge conventional approaches
+          to criminal policy, environmental protection, security, and socioecological responsibility.
+        </p>
 
-If I had to choose five works that best represent my research agenda, I would invite you to read the following:
+        <p>
+          You can read more in the <a href="{{ '/research/' | relative_url }}">Research</a> section.
+        </p>
+      </section>
 
-- [Bluewashing and the Illusion of Sustainability in the Cruise Industry](https://doi.org/10.1007/s10612-026-09904-0) — *Critical Criminology*, 2026. DOI: [10.1007/s10612-026-09904-0](https://doi.org/10.1007/s10612-026-09904-0)
+      <section id="teaching">
+        <h2>Teaching</h2>
 
-- *Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments* — *Open Research Europe*, 2026.
+        <p>
+          My teaching covers criminal law, criminology, environmental crime, criminal justice,
+          and interdisciplinary approaches to ecological harm, accountability, and restoration.
+        </p>
 
-- *Molecular genetics as evidence of environmental harm in ecocriminological analysis* — *Open Research Europe*, 2025.
+        <p>
+          I teach undergraduate and postgraduate courses at Universitat Jaume I, and I supervise
+          bachelor’s dissertations, master’s dissertations, research projects, and practical learning
+          activities in law, criminology, and related interdisciplinary areas.
+        </p>
 
-- *El ecosistema como bien jurídico protegido en el artículo 325 del Código Penal: propuesta de una nueva configuración ecocéntrica integral del delito ecológico* — *Revista Electrónica de Ciencia Penal y Criminología*, 2024.
+        <p>
+          I also develop case-based and seminar-based teaching materials and participate in clinical,
+          applied, and experiential learning initiatives that connect academic work with real legal,
+          social, and environmental questions.
+        </p>
 
-- *Underwater noise pollution as an ecological crime: a global problem in the Anthropocene* — *Kriminologie – Das Online-Journal*, 2023.
+        <p>
+          More information is available in the <a href="{{ '/teaching/' | relative_url }}">Teaching</a> section.
+        </p>
+      </section>
 
-You can explore the [full list of my publications](publications), as well as my [Google Scholar](https://scholar.google.com/citations?user=SXUl9Y0AAAAJ&hl=en), [Dialnet](https://dialnet.unirioja.es/servlet/autor?codigo=4408546), and [UJI scientific portal](https://portalcientific.uji.es/investigadores/1327563/publicaciones) profiles.
+      <section id="selected-publications">
+        <h2>Selected publications</h2>
 
-## Current roles
+        <p>
+          My publications address environmental criminal law, marine environmental harm, ecocide,
+          underwater noise, marine pollution, <em>Posidonia oceanica</em>, ecological justice,
+          and green and blue criminology.
+        </p>
 
-**[Universitat Jaume I](https://www.uji.es/)** | Profesor Permanente Laboral in Public Law, Faculty of Legal and Economic Sciences
+        <ul class="reference-list">
+          <li>
+            Selected work on environmental criminal law, ecocide, and ecological harm.
+          </li>
+          <li>
+            Research on underwater noise, desalination brine, and marine ecosystem protection.
+          </li>
+          <li>
+            Publications on green and blue criminology, environmental justice, and socioecological harm.
+          </li>
+        </ul>
 
-**Clínica Jurídica y Criminológica, Universitat Jaume I** | Director since 2025
+        <p>
+          You can consult the <a href="{{ '/publications/' | relative_url }}">full list of publications</a>
+          and a broader institutional record through my
+          <a href="https://portalcientific.uji.es/investigadores/1327563/publicaciones">UJI research profile</a>.
+        </p>
+      </section>
 
-**Laboratorio de Gobernanza Azul — BlueGovLab, Universitat Jaume I** | Scientific Coordinator since 2025
+      <section id="affiliations">
+        <h2>Affiliations</h2>
 
-**Centro de Investigación en Derecho Penal, Criminología e Inteligencia, Universitat Jaume I** | Coordinator since 2025
+        <ul class="reference-list">
+          <li>
+            <strong><a href="https://www.uji.es/">Universitat Jaume I</a></strong><br>
+            Lecturer, researcher, and academic coordinator in law, criminology, and interdisciplinary environmental research.
+          </li>
 
-**Aula IbizaPreservation de Criminalidad Azul, Universitat Jaume I** | Director since 2025
+          <li>
+            <strong><a href="https://bluegovlab.uji.es/">Blue Governance Laboratory (BlueGovLab)</a></strong><br>
+            Scientific Coordinator.
+          </li>
 
-## Leadership and affiliations
+          <li>
+            <strong><a href="https://ocn.uib.eu/team/">Ocean Crime Narratives</a></strong><br>
+            Research team member.
+          </li>
 
-**[International Union for Conservation of Nature — World Commission on Environmental Law](https://www.iucn.org/our-union/commissions/group/iucn-world-commission-environmental-law)** | Spanish representative in the Spanish Committee of IUCN
+          <li>
+            <strong><a href="https://ibizapreservation.org/">Aula IbizaPreservation de Criminalidad Azul</a></strong><br>
+            Director.
+          </li>
+        </ul>
+      </section>
 
-**Sociedad Española de Investigación Criminológica (SEIC)** | Former Coordinator of the Green Criminology Group
+    </article>
 
-**European Society of Criminology** | Member since 2012
+    <aside class="academic-toc" aria-label="On this page">
+      <p>On this page</p>
 
-**International Association of Penal Law** | Member since 2019
-
-**Red Ibérica de Juristas del Litoral** | Member since 2020
+      <a href="#biography">Biography</a>
+      <a href="#research-interests">Research interests</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#selected-publications">Selected publications</a>
+      <a href="#affiliations">Affiliations</a>
+    </aside>
