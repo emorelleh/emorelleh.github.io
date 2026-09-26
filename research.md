@@ -132,18 +132,23 @@ permalink: /research/
         </p>
       </div>
 
-      <div class="research-project">
-       <a href="https://bluegovlab.uji.es">
-        <h3>Blue Governance Laboratory (BlueGovLab)</h3>
-        <p class="project-meta">
-          Scientific Coordinator · Universitat Jaume I · Since 2025
-        </p>
-        <p>
-          An interdisciplinary laboratory connecting research on ocean
-          governance, environmental protection, marine biodiversity,
-          and public policy.
-        </p>
-      </div>
+     <div class="research-project">
+  <h3>
+    <a href="https://bluegovlab.uji.es/">
+      Blue Governance Laboratory (BlueGovLab)
+    </a>
+  </h3>
+
+  <p class="project-meta">
+    Scientific Coordinator · Universitat Jaume I · Since 2025
+  </p>
+
+  <p>
+    An interdisciplinary laboratory connecting research on ocean
+    governance, environmental protection, marine biodiversity,
+    and public policy.
+  </p>
+</div>
 
       <div class="research-project">
         <h3>
