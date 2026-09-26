@@ -1078,3 +1078,15 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+
+.academic-reading > section:first-child h2 {
+  margin-top: 0;
+}
+
+.academic-reading .reference-list a {
+  text-decoration-thickness: 1px;
+}
+
+.academic-reading .reference-list li {
+  line-height: 1.7;
+}
