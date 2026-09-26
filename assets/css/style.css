@@ -373,7 +373,171 @@ img { max-width: 100%; height: auto; }
   letter-spacing: -0.03em;
   color: #172b3a;
 }
+/* Teaching page */
 
+.teaching-page {
+  display: grid;
+  grid-template-columns: minmax(0, 740px) 180px;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  justify-content: center;
+  align-items: start;
+}
+
+.teaching-content {
+  min-width: 0;
+}
+
+.teaching-intro {
+  margin: 0 0 3rem;
+  padding: 0;
+  border: 0;
+}
+
+.teaching-intro h1 {
+  margin: 0 0 1rem;
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.teaching-intro p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.teaching-content section {
+  scroll-margin-top: 2rem;
+}
+
+.teaching-content section + section {
+  margin-top: 3.5rem;
+}
+
+.teaching-content section > h2 {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.teaching-content h3 {
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.teaching-content h3 a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.teaching-content h3 a:hover,
+.teaching-content h3 a:focus-visible {
+  text-decoration: underline;
+}
+
+.teaching-content p {
+  margin: 0 0 1.2rem;
+}
+
+.teaching-group + .teaching-group,
+.teaching-project + .teaching-project {
+  margin-top: 2.25rem;
+}
+
+.teaching-programme {
+  margin-bottom: 0.8rem !important;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.teaching-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.teaching-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.teaching-list li:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.teaching-list a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.teaching-list a:hover,
+.teaching-list a:focus-visible {
+  text-decoration: underline;
+}
+
+.course-detail {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.teaching-project .project-meta {
+  margin-bottom: 0.55rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.teaching-toc {
+  position: sticky;
+  top: 2rem;
+  font-size: 0.86rem;
+}
+
+.teaching-toc > p {
+  margin: 0 0 0.8rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.teaching-toc nav {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.teaching-toc a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.teaching-toc a:hover,
+.teaching-toc a:focus-visible {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+  .teaching-page {
+    display: block;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  .teaching-toc {
+    display: none;
+  }
+}
 .publications-intro p {
   margin-top: 0;
 }
