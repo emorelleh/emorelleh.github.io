@@ -100,13 +100,13 @@ permalink: /outreach/
 
       <div class="outreach-item">
         <h3>
-          <a href="https://repositori.uji.es/collections/e1e78eed-4377-4ca2-b234-90830c9f0985">
+          <a href="https://clinilex.uji.es">
             Legal and Criminological Clinic
           </a>
         </h3>
 
         <p class="outreach-meta">
-          Director · Universitat Jaume I
+          Director 2023-2026· Universitat Jaume I
         </p>
 
         <p>
