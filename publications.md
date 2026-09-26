@@ -1,6 +1,8 @@
+---
 title: Research publications
 description: "Publications, books, chapters, reports and research data by Esteban Morelle-Hungría"
 permalink: /publications/
+---
 
 <div class="publications-page">
 <article class="publications-content">
