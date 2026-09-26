@@ -149,7 +149,7 @@ permalink: /research/
         </h3>
 
         <p class="project-meta">
-          Scientific Coordinator · Universitat Jaume I · Since 2025
+          Scientific Coordinator · Universitat Jaume I · 2025 - 2026
         </p>
 
         <p>
@@ -175,8 +175,6 @@ permalink: /research/
           Formentera through research, training, public engagement, and
           knowledge exchange.
         </p>
-      </div>
-    </section>
 
     <section id="methods-and-collaboration">
       <h2>Methods and collaboration</h2>
@@ -233,8 +231,6 @@ permalink: /research/
         </a>.
       </p>
     </section>
-
-  </article>
 
   <aside class="research-toc" aria-label="On this page">
     <p>On this page</p>
