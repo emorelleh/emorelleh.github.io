@@ -292,3 +292,16 @@ img { max-width: 100%; height: auto; }
     max-width: 255px;
   }
 }
+/* Encabezado de la página de publicaciones */
+.publications-intro h1 {
+  margin: 0 0 0.8rem;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #172b3a;
+}
+
+.publications-intro p {
+  margin-top: 0;
+}
