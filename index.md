@@ -46,7 +46,7 @@ description: "Environmental criminal law, green and blue criminology, marine har
         <h2>Biography</h2>
 
         <p>
-          I am a Professor of Criminal Law and Criminology at the Universitat Jaume I,
+          I am an Associate Professor of Criminal Law and Criminology at the Universitat Jaume I,
           where I develop my teaching and research in criminology, criminal law, and criminal policy.
           My academic trajectory has progressively focused on green criminology, environmental criminal law,
           and ecological governance, with particular attention to marine environmental crime,
@@ -199,7 +199,7 @@ description: "Environmental criminal law, green and blue criminology, marine har
 
           <li>
             <strong>Clínica Jurídica y Criminológica, Universitat Jaume I</strong><br>
-            Director.
+            Director 2023-2026.
           </li>
 
           <li>
