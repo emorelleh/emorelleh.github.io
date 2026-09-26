@@ -16,7 +16,7 @@ description: "Environmental criminal law, green and blue criminology, marine har
     <h1>Esteban Morelle-Hungría</h1>
 
     <p class="academic-title">
-      Lecturer and researcher in criminal law, criminology, environmental harm, and marine ecosystems
+      Associate Professor in Criminal law and Criminology, researching in environmental harm, and marine ecosystems
     </p>
 
     <address class="academic-address">
