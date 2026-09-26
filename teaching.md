@@ -203,7 +203,7 @@ permalink: /teaching/
 
       <p>
         I was the second Chair of
-        <a href="https://repositori.uji.es/collections/e1e78eed-4377-4ca2-b234-90830c9f0985">
+        <a href="https://clinilex.uji.es">
           Legal and Criminological Clinic at Universitat Jaume I
         </a>,
         from November 2023 to September 2026, where students connect academic learning with real legal,
