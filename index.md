@@ -92,16 +92,46 @@ description: "Academic website of Esteban Morelle-Hungría"
         <p>Read more about my <a href="{{ '/teaching/' | relative_url }}">teaching</a>.</p>
       </section>
 
-      <section id="selected-publications">
-        <h2>Selected publications</h2>
-        <ul class="reference-list">
-          <li>Morelle-Hungría, E., South, N., White, R., Dobson, J. Y., Fonfría Subirós, E., &amp; Bordehore Fontanet, C. (2026). <a href="https://doi.org/10.1007/s10612-026-09904-0">Bluewashing and the illusion of sustainability in the cruise industry</a>. <em>Critical Criminology</em>.</li>
-          <li>Dobson, J. Y., Bordehore Fontanet, C., Fonfría, E. S., &amp; Morelle-Hungría, E. (2023). Underwater noise pollution as an ecological crime: A global problem in the Anthropocene. <em>Kriminologie – Das Online-Journal</em>.</li>
-          <li>Morelle-Hungría, E. (2026) <a href="https://doi.org/10.1007/s10612-026-09904-0](https://doi.org/10.12688/openreseurope.24170.2"><em>Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments </em>. Open Research Europe.</li>
-        </ul>
-        <p>Explore the <a href="{{ '/publications/' | relative_url }}">full list of publications</a>.</p>
-      </section>
+<section id="selected-publications">
+  <h2>Selected publications</h2>
 
+  <ul class="reference-list">
+    <li>
+      Morelle-Hungría, E., South, N., White, R., Dobson, J. Y.,
+      Fonfría Subirós, E., &amp; Bordehore Fontanet, C. (2026).
+      <a href="https://doi.org/10.1007/s10612-026-09904-0">
+        Bluewashing and the illusion of sustainability in the cruise industry
+      </a>.
+      <em>Critical Criminology</em>.
+    </li>
+
+    <li>
+      Morelle-Hungría, E., Fonfría Subirós, E., Dobson, J. Y.,
+      &amp; Bordehore Fontanet, C. (2023).
+      <a href="https://www.kriminologie.de/index.php/krimoj/article/view/283">
+        Underwater noise pollution as an ecological crime:
+        A global problem in the Anthropocene
+      </a>.
+      <em>Kriminologie – Das Online-Journal</em>.
+    </li>
+
+    <li>
+      Morelle-Hungría, E. (2026).
+      <a href="https://doi.org/10.12688/openreseurope.24170.2">
+        Ecological harm and criminal thresholds: A pilot legal-ecological
+        coding framework for environmental crime judgments
+      </a>.
+      <em>Open Research Europe, 6</em>, 209.
+    </li>
+  </ul>
+
+  <p>
+    Explore the
+    <a href="{{ '/publications/' | relative_url }}">
+      full list of publications
+    </a>.
+  </p>
+</section>
       <section id="affiliations">
         <h2>Affiliations</h2>
         <ul class="reference-list">
