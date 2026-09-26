@@ -669,3 +669,214 @@ img { max-width: 100%; height: auto; }
     display: none;
   }
 }
+/* Extras page */
+
+.extras-page {
+  display: grid;
+  grid-template-columns: minmax(0, 740px) 180px;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  justify-content: center;
+  align-items: start;
+}
+
+.extras-content {
+  min-width: 0;
+}
+
+.extras-intro {
+  margin: 0 0 3rem;
+  padding: 0;
+  border: 0;
+}
+
+.extras-intro h1 {
+  margin: 0 0 1rem;
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.extras-intro p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.extras-content section {
+  scroll-margin-top: 2rem;
+}
+
+.extras-content section + section {
+  margin-top: 3.5rem;
+}
+
+.extras-content section > h2 {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.extras-content h3 {
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.extras-content h3 a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.extras-content h3 a:hover,
+.extras-content h3 a:focus-visible {
+  text-decoration: underline;
+}
+
+.extras-content p {
+  margin: 0 0 1.2rem;
+}
+
+/* Interdisciplinary timeline */
+
+.extras-timeline {
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--line);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 2.25rem 1.25rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item::before {
+  position: absolute;
+  top: 0.35rem;
+  left: -1.65rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 2px solid var(--link);
+  border-radius: 50%;
+  background: var(--background, #fff);
+  content: "";
+}
+
+.timeline-label {
+  margin-bottom: 0.35rem !important;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/* Academic profile links */
+
+.extras-link-list {
+  display: grid;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.extras-link {
+  display: grid;
+  grid-template-columns: minmax(140px, 0.7fr) minmax(0, 1.3fr);
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  text-decoration: none;
+}
+
+.extras-link:hover .extras-link-name,
+.extras-link:focus-visible .extras-link-name {
+  text-decoration: underline;
+}
+
+.extras-link-name {
+  color: var(--link);
+  font-weight: 700;
+}
+
+.extras-link-description {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Resources and networks */
+
+.extras-resource + .extras-resource,
+.extras-network + .extras-network {
+  margin-top: 2.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.resource-meta {
+  margin-bottom: 0.7rem !important;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Page navigation */
+
+.extras-toc {
+  position: sticky;
+  top: 2rem;
+  font-size: 0.86rem;
+}
+
+.extras-toc > p {
+  margin: 0 0 0.8rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.extras-toc nav {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.extras-toc a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.extras-toc a:hover,
+.extras-toc a:focus-visible {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+  .extras-page {
+    display: block;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  .extras-toc {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .extras-link {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
