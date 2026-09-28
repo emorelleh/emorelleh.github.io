@@ -8,9 +8,11 @@ permalink: /ledat/
 <div class="academic-home">
 
   <aside class="academic-profile">
-    <div class="profile-photo" style="display:flex;align-items:center;justify-content:center;background:#f3f4f6;color:#111827;font-weight:700;font-size:1.4rem;min-height:220px;">
-      LEDAT®
-    </div>
+    <img
+  class="profile-photo"
+  src="{{ '/assets/images/ledat-logo.jpg' | relative_url }}"
+  alt="LEDAT logo"
+>
 
     <h1>LEDAT®</h1>
 
