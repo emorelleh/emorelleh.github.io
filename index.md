@@ -34,6 +34,7 @@ description: "Environmental criminal law, green and blue criminology, marine har
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57220128052">Scopus</a>
       <a href="https://dialnet.unirioja.es/servlet/autor?codigo=4408546">Dialnet</a>
       <a href="https://portalcientific.uji.es/investigadores/1327563/detalle">UJI scientific portal</a>
+      <a href="{{ '/media/' | relative_url }}">Media</a>
       <a href="https://emorellehungria.com">Personal website</a>
     </div>
   </aside>
@@ -68,6 +69,12 @@ description: "Environmental criminal law, green and blue criminology, marine har
           ecology, and environmental evidence. My academic activity also includes teaching,
           supervision, knowledge transfer, public engagement, and collaboration with research
           networks and institutions working on environmental harm and marine sustainability.
+        </p>
+
+        <p>
+          My work in public engagement, media collaboration, and knowledge transfer is also presented
+          in the <a href="{{ '/media/' | relative_url }}">Media</a> and
+          <a href="{{ '/outreach/' | relative_url }}">Outreach</a> sections.
         </p>
       </section>
 
@@ -155,7 +162,7 @@ description: "Environmental criminal law, green and blue criminology, marine har
 
           <li>
             <strong>Morelle Hungría, Esteban.</strong>
-            <a href="https://open-research-europe.ec.europa.eu/articles/6-209">
+            <a href="https://doi.org/10.12688/openreseurope.24170.2">
               Ecological harm and criminal thresholds: A pilot legal-ecological coding framework
               for environmental crime judgments
             </a>.
@@ -194,8 +201,11 @@ description: "Environmental criminal law, green and blue criminology, marine har
           <a href="{{ '/publications/' | relative_url }}">full list of publications</a>,
           my
           <a href="https://scholar.google.com/citations?user=SXUl9Y0AAAAJ&hl=en">Google Scholar profile</a>,
-          and my
-          <a href="https://portalcientific.uji.es/investigadores/1327563/publicaciones">UJI research profile</a>.
+          my
+          <a href="https://portalcientific.uji.es/investigadores/1327563/publicaciones">UJI research profile</a>,
+          and the
+          <a href="{{ '/media/' | relative_url }}">Media</a>
+          page for selected interviews, press articles, radio contributions, and public communication activities.
         </p>
       </section>
 
