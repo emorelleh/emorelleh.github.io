@@ -9,10 +9,10 @@ permalink: /ledat/
 
   <aside class="academic-profile">
     <img
-      class="profile-photo"
-      src="{{ '/assets/images/ledat-logo.jpg' | relative_url }}"
-      alt="LEDAT logo"
-    >
+  class="profile-photo"
+  src="{{ '/assets/css/assets/images/ledat-logo.jpg' | relative_url }}"
+  alt="LEDAT logo"
+>
 
     <h1>LEDAT®</h1>
 
