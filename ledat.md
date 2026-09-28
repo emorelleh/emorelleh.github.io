@@ -9,10 +9,10 @@ permalink: /ledat/
 
   <aside class="academic-profile">
     <img
-  class="profile-photo"
-  src="{{ '/assets/images/ledat-logo.jpg' | relative_url }}"
-  alt="LEDAT logo"
->
+      class="profile-photo"
+      src="{{ '/assets/images/ledat-logo.jpg' | relative_url }}"
+      alt="LEDAT logo"
+    >
 
     <h1>LEDAT®</h1>
 
@@ -29,7 +29,7 @@ permalink: /ledat/
     <div class="academic-links">
       <a href="{{ '/ledat-app/' | relative_url }}">Launch app</a>
       <a href="https://crimiclima.uji.es" target="_blank" rel="noopener noreferrer">CrimiClima</a>
-      <a href="https://doi.org/10.12688/openreseurope.24170.1" target="_blank" rel="noopener noreferrer">Reference article</a>
+      <a href="https://doi.org/10.12688/openreseurope.24170.2" target="_blank" rel="noopener noreferrer">Reference article</a>
       <a href="{{ '/research/' | relative_url }}">Research</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
     </div>
@@ -78,7 +78,8 @@ permalink: /ledat/
         <ul class="reference-list">
           <li><strong>0.0 – 3.9</strong><br>Predominantly administrative.</li>
           <li><strong>4.0 – 6.9</strong><br>Grey area.</li>
-          <li><strong>≥ 7.0</strong><br>High criminal relevance.</li>
+          <li><strong>7.0 – 10.0</strong><br>High material relevance.</li>
+          <li><strong>Above 10</strong><br>Exceptional range.</li>
         </ul>
 
         <p>
@@ -110,6 +111,29 @@ permalink: /ledat/
         </p>
       </section>
 
+      <section id="app">
+        <h2>LEDAT app</h2>
+
+        <p>
+          The interactive version of the tool is embedded below for direct use
+          within this page. It can also be opened separately in a standalone view.
+        </p>
+
+        <p>
+          <a href="{{ '/ledat-app/' | relative_url }}">Open the app in a separate page</a>
+        </p>
+
+        <div style="margin-top:1.5rem;">
+          <iframe
+            src="{{ '/ledat-app/' | relative_url }}"
+            title="LEDAT app"
+            width="100%"
+            style="min-height:1200px;border:1px solid #e5e7eb;border-radius:12px;background:#fff;"
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+
       <section id="methodology">
         <h2>Methodological basis</h2>
 
@@ -127,8 +151,8 @@ permalink: /ledat/
           Morelle-Hungría, E.
           <em>Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments</em>.
           <em>Open Research Europe</em>, 2026, 6:209.
-          <a href="https://doi.org/10.12688/openreseurope.24170.1" target="_blank" rel="noopener noreferrer">
-            https://doi.org/10.12688/openreseurope.24170.1
+          <a href="https://doi.org/10.12688/openreseurope.24170.2" target="_blank" rel="noopener noreferrer">
+            https://doi.org/10.12688/openreseurope.24170.2
           </a>
         </p>
 
@@ -154,6 +178,11 @@ permalink: /ledat/
           utility, but also as a methodological contribution to the assessment of
           material environmental damage in legal and criminological contexts.
         </p>
+
+        <p>
+          The method used by LEDAT® and the LEDAT trademark are registered in the
+          name of Universitat Jaume I.
+        </p>
       </section>
 
     </article>
@@ -164,6 +193,7 @@ permalink: /ledat/
       <a href="#overview">Overview</a>
       <a href="#what-it-does">What the tool does</a>
       <a href="#how-to-use">How to use it</a>
+      <a href="#app">LEDAT app</a>
       <a href="#methodology">Methodological basis</a>
       <a href="#institutional-framework">Institutional framework</a>
     </aside>
