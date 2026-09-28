@@ -1,0 +1,202 @@
+---
+layout: default
+title: LEDAT App
+description: "LEDAT® / IDPAm calculator"
+permalink: /ledat-app/
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IDPAm · LEDAT® Calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8fafc;--surface:#ffffff;--text:#0f172a;--line:#e2e8f0;--muted:#64748b;--green:#059669;--green-bg:#ecfdf5;--amber:#d97706;--amber-bg:#fffbeb;--red:#dc2626;--red-bg:#fef2f2;--pink:#9f1239;--pink-bg:#fdf2f8;--radius:10px;--shadow:0 1px 2px rgba(15,23,42,.04)}
+[data-theme="dark"]{--bg:#020617;--surface:#0f172a;--text:#f1f5f9;--line:#1e293b;--muted:#94a3b8;--green-bg:#052e21;--amber-bg:#2b1a03;--red-bg:#2b0a0a;--pink-bg:#2b0517}
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}a{color:inherit}button{font-family:inherit;cursor:pointer}h1,h2,h3,.title-font{font-family:'Bricolage Grotesque',sans-serif}.mono{font-family:'JetBrains Mono',monospace}.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+header.app-header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;background:var(--bg);backdrop-filter:blur(6px)}.header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:12px;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:10px}.brand-mark{width:34px;height:34px;border-radius:8px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:13px}[data-theme="dark"] .brand-mark{background:#f1f5f9;color:#0f172a}.brand-text h1{font-size:16px;margin:0}.brand-text span{font-size:11px;color:var(--muted)}.header-actions{display:flex;align-items:center;gap:8px}.icon-btn{display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:7px 10px;font-size:12px;font-weight:600;color:var(--text)}
+nav.tabs{display:flex;gap:6px;padding:0 0 12px}.tab-btn{background:transparent;border:1px solid transparent;border-radius:var(--radius);padding:7px 12px;font-size:13px;font-weight:600;color:var(--muted)}.tab-btn.active{background:var(--surface);border-color:var(--line);color:var(--text)}main{padding:28px 0 60px}.view{display:none}.view.active{display:block}.calc-grid,.compare-grid{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:start}@media (max-width:980px){.calc-grid,.compare-grid{grid-template-columns:1fr}}.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;box-shadow:var(--shadow)}.section-title{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 14px}.note{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:20px;font-size:14px;line-height:1.6}
+.var-block{margin-bottom:20px}.var-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;gap:8px}.var-head .name{font-weight:600;font-size:13.5px}.var-head .code{font-size:11px;color:var(--muted)}.seg{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.seg button{border:1px solid var(--line);background:var(--bg);border-radius:7px;padding:8px 0;font-size:13px;font-weight:700;color:var(--text);font-family:'JetBrains Mono',monospace}.seg button.sel{background:#0f172a;color:#fff;border-color:#0f172a}[data-theme="dark"] .seg button.sel{background:#f1f5f9;color:#0f172a;border-color:#f1f5f9}.anchor-text{font-size:12px;color:var(--muted);margin-top:7px;line-height:1.45}
+.trig-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}@media (max-width:640px){.trig-grid{grid-template-columns:1fr}}.trig-card{border:1px solid var(--line);border-radius:9px;padding:12px;cursor:pointer;display:flex;gap:10px;align-items:flex-start;background:var(--bg)}.trig-card.checked{border-color:var(--red);background:var(--red-bg)}.trig-check{width:17px;height:17px;border-radius:5px;border:1.5px solid var(--muted);flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center}.trig-card.checked .trig-check{background:var(--red);border-color:var(--red)}.trig-card.checked .trig-check svg{display:block}.trig-check svg{display:none;width:11px;height:11px;stroke:#fff}.trig-name{font-weight:600;font-size:13px;margin:0 0 3px}.trig-desc{font-size:11.5px;color:var(--muted);line-height:1.4}
+.result-panel{position:sticky;top:78px}.result-idpam{text-align:center;padding:22px 10px 16px;border-radius:12px;margin-bottom:14px}.result-idpam .big{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:56px;line-height:1}.result-idpam .band-label{font-weight:700;font-size:13px;margin-top:6px}.result-idpam .scale{font-size:11px;color:var(--muted);margin-top:4px;font-family:'JetBrains Mono',monospace}.res-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}.res-row:last-child{border-bottom:none}.res-row .lab{color:var(--muted)}.res-row .val{font-family:'JetBrains Mono',monospace;font-weight:700}.formula-box{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:11.5px;text-align:center;color:var(--muted)}
+.legend{display:grid;grid-template-columns:1fr;gap:6px;margin-top:14px}.legend-item{display:flex;align-items:center;gap:8px;font-size:11.5px;padding:6px 8px;border-radius:7px;border:1px solid transparent}.legend-item .dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}.legend-item.active{border-color:currentColor;font-weight:700}.field{margin-bottom:12px}.field label{display:block;font-size:12px;font-weight:600;margin-bottom:5px;color:var(--muted)}.field input,.field textarea{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:7px;padding:8px 10px;font-size:13px;font-family:inherit}.field textarea{resize:vertical;min-height:60px}.actions-row{display:flex;gap:10px;margin-top:16px}.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:9px 14px;font-size:13px;font-weight:700}.btn-primary{background:#0f172a;color:#fff;border-color:#0f172a}[data-theme="dark"] .btn-primary{background:#f1f5f9;color:#0f172a;border-color:#f1f5f9}
+.hist-toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:32px 0 14px;flex-wrap:wrap}.search-input{flex:1;min-width:220px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:9px 12px;font-size:13px;color:var(--text)}table.hist-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}table.hist-table th,table.hist-table td{padding:11px 12px;text-align:left;font-size:13px;border-bottom:1px solid var(--line)}table.hist-table th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}table.hist-table tr:last-child td{border-bottom:none}.badge{display:inline-block;padding:3px 9px;border-radius:20px;font-size:11px;font-weight:700}.row-actions{display:flex;gap:6px;flex-wrap:wrap}.row-actions button{background:transparent;border:1px solid var(--line);border-radius:6px;padding:5px 7px}.empty-state{text-align:center;padding:40px 20px;color:var(--muted);font-size:13px}.compare-checkbox{width:16px;height:16px}.compare-side-card{border-left:4px solid var(--line);margin-bottom:14px;padding:14px 16px;border-radius:0 10px 10px 0;background:var(--surface);border:1px solid var(--line)}
+footer.app-footer{border-top:1px solid var(--line);padding:34px 0;background:var(--surface)}.footer-inner{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:flex-start}.footer-brand{display:flex;gap:12px;align-items:center;max-width:520px}.uji-logo{width:46px;height:46px;border-radius:8px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;font-family:'Bricolage Grotesque',sans-serif}.footer-text{font-size:12px;color:var(--muted);line-height:1.6}.footer-text b{color:var(--text)}.footer-links{font-size:12px;display:flex;flex-direction:column;gap:8px;align-items:flex-end}.footer-links a{font-weight:700;color:var(--text);text-decoration:underline}.range-mono{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px}
+</style>
+</head>
+<body>
+<header class="app-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">UJI</div>
+      <div class="brand-text">
+        <h1>LEDAT® / IDPAm Calculator</h1>
+        <span>Universitat Jaume I · CrimiClima project</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="langToggle">ES / EN</button>
+      <button class="icon-btn" id="themeToggle">Theme</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <nav class="tabs">
+      <button class="tab-btn active" data-view="calc">Calculator</button>
+      <button class="tab-btn" data-view="compare">Comparator</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="note">
+    This app implements the LEDAT® methodology and returns the Material Environmental Damage Index (IDPAm) on a scale of 0–12. It is an orientative tool for assessing the material seriousness of environmental harm and does not determine by itself whether a case constitutes a criminal offence or an administrative infringement.
+  </div>
+
+  <div class="view active" id="view-calc">
+    <div class="calc-grid">
+      <div>
+        <div class="card" style="margin-bottom:20px">
+          <p class="section-title">Legal component (LC)</p>
+          <div id="legalVars"></div>
+        </div>
+        <div class="card" style="margin-bottom:20px">
+          <p class="section-title">Ecological component (EC)</p>
+          <div id="ecoVars"></div>
+        </div>
+        <div class="card">
+          <p class="section-title">Qualifying triggers</p>
+          <div class="trig-grid" id="triggerGrid"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="result-panel">
+          <div class="card">
+            <div class="result-idpam" id="resultBox">
+              <div class="big mono" id="idpamValue">0.0</div>
+              <div class="band-label" id="bandLabel">Predominantly administrative</div>
+              <div class="scale">Scale 0–12</div>
+            </div>
+            <div class="res-row"><span class="lab">LC (raw)</span><span class="val" id="lcVal">0.00</span></div>
+            <div class="res-row"><span class="lab">EC (raw)</span><span class="val" id="ecVal">0.00</span></div>
+            <div class="res-row"><span class="lab">Base IDPAm</span><span class="val" id="baseVal">0.00</span></div>
+            <div class="res-row"><span class="lab">Triggers</span><span class="val" id="trigVal">+0</span></div>
+            <div class="formula-box">IDPAm = 0.4·LC + 0.6·EC + min(Σtriggers, 2)</div>
+            <div class="legend" id="legend"></div>
+
+            <div class="actions-row">
+              <div class="field" style="flex:1;margin:0">
+                <label>Case name *</label>
+                <input type="text" id="caseName" placeholder="Enter a case name">
+              </div>
+            </div>
+            <div class="field">
+              <label>Reference (optional)</label>
+              <input type="text" id="caseRef" placeholder="File, judgment, dossier or record">
+            </div>
+            <div class="field">
+              <label>Notes (optional)</label>
+              <textarea id="caseNotes" placeholder="Notes for this assessment"></textarea>
+            </div>
+            <button class="btn btn-primary" id="saveCaseBtn" style="width:100%;margin-top:6px">Save case</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hist-toolbar">
+      <h2 class="title-font" style="font-size:18px;margin:0">Case history</h2>
+      <button class="btn" id="toggleCompareModeBtn">Compare</button>
+    </div>
+    <div class="hist-toolbar" style="margin-top:0">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search by name or reference…">
+      <button class="btn" id="compareGoBtn" style="display:none">Compare selected →</button>
+    </div>
+    <div id="histTableWrap"></div>
+  </div>
+
+  <div class="view" id="view-compare">
+    <div class="hist-toolbar" style="margin-top:0">
+      <h2 class="title-font" style="font-size:18px;margin:0">Case comparator</h2>
+      <button class="btn" id="backBtn">← Back</button>
+    </div>
+    <div class="compare-grid">
+      <div class="card">
+        <p class="section-title">Variable summary</p>
+        <div id="compareSummary"></div>
+      </div>
+      <div id="compareCards"></div>
+    </div>
+  </div>
+</main>
+<footer class="app-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <div class="uji-logo">UJI</div>
+      <div class="footer-text">
+        <div><b>LEDAT®</b> — Legal-Ecological Damage Assessment Tool</div>
+        <div>Method registered by the Universitat Jaume I as part of the CrimiClima project.</div>
+        <div style="margin-top:6px">This application is based on the published reference article: <a href="https://doi.org/10.12688/openreseurope.24170.1" target="_blank" rel="noopener noreferrer">Open Research Europe 2026, 6:209</a>.</div>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="{{ '/ledat/' | relative_url }}">About LEDAT</a>
+      <a href="https://crimiclima.uji.es" target="_blank" rel="noopener noreferrer">CrimiClima</a>
+      <span class="range-mono">IDPAm 0 – 12</span>
+    </div>
+  </div>
+</footer>
+<script>
+const LEGAL_VARS=[
+ {key:'TP',label:'Infringement classification',anchors:['No applicable infringement.','Basic environmental infringement.','Aggravated infringement or harm to protected species/area.','Most serious infringement (irreversible / large-scale).']},
+ {key:'INT',label:'Intent / intensity',anchors:['Minor negligence.','Gross negligence.','Recklessness / eventual intent.','Direct intent.']},
+ {key:'AGR',label:'Aggravating circumstances',anchors:['None.','One aggravating circumstance.','Two aggravating circumstances.','Three or more aggravating circumstances.']},
+ {key:'REC',label:'Repetition / continuity',anchors:['No prior conduct.','Isolated prior conduct.','Multiple prior infringements.','Systematic / continued conduct.']}
+];
+const ECO_VARS=[
+ {key:'EXT',label:'Spatial extent',anchors:['< 0.5 ha or minimal impact.','0.5 – 1 ha.','1 – 10 ha.','> 10 ha or widespread impact.']},
+ {key:'ECO',label:'Ecosystem sensitivity / protection',anchors:['Common / urban area.','Transformed / agricultural area.','Sensitive ecosystem.','Protected area (Natura 2000, national park, equivalent).']},
+ {key:'BIO',label:'Biodiversity impact',anchors:['Common species only.','Regionally protected species.','Vulnerable species.','Endangered species.']},
+ {key:'REV',label:'Reversibility / duration',anchors:['< 1 year.','1 – 5 years.','> 5 years.','Irreversible.']},
+ {key:'SUS',label:'Substance hazard',anchors:['Non-toxic.','Toxic.','Hazardous.','Persistent / bioaccumulative / carcinogenic.']},
+ {key:'CONC',label:'Concentration / volume',anchors:['Within legal limits.','Slight excess.','High excess.','Critical / massive excess.']}
+];
+const TRIGGERS=[
+ {id:'endangered_species',name:'Critically endangered species',desc:'Impact on CITES Appendix I or equivalent.'},
+ {id:'protected_area',name:'Maximum-value protected area',desc:'National park, Natura 2000 SAC/SPA.'},
+ {id:'human_health',name:'Serious risk to human health',desc:'Serious or widespread exposure evidenced.'},
+ {id:'hazardous_substance',name:'Extremely hazardous substance',desc:'PBT / CMR / highly toxic material.'},
+ {id:'massive_impact',name:'Massive / transboundary impact',desc:'Effects beyond the immediate area.'},
+ {id:'ecosystem_services',name:'Damage to ecosystem services',desc:'Water purification, trophic balance, habitat integrity.'}
+];
+const ALL_KEYS=['TP','INT','AGR','REC','EXT','ECO','BIO','REV','SUS','CONC'];
+let scores={TP:0,INT:0,AGR:0,REC:0,EXT:0,ECO:0,BIO:0,REV:0,SUS:0,CONC:0};
+let activeTriggers=new Set();
+let compareMode=false; let selectedForCompare=new Set();
+function computeFor(sc,trigCount){const sumLegal=sc.TP+sc.INT+sc.AGR+sc.REC;const sumEco=sc.EXT+sc.ECO+sc.BIO+sc.REV+sc.SUS+sc.CONC;const LC=(sumLegal/12)*10;const EC=(sumEco/18)*10;const base=0.4*LC+0.6*EC;const trigAdd=Math.min(trigCount,2);const idpam=base+trigAdd;return{sumLegal,sumEco,LC,EC,base,trigAdd,idpam}}
+function bandFor(idpam){if(idpam>10)return{key:'pink',color:'var(--pink)',bg:'var(--pink-bg)',label:'Exceptional range'};if(idpam>=7)return{key:'red',color:'var(--red)',bg:'var(--red-bg)',label:'High criminal relevance'};if(idpam>=4)return{key:'amber',color:'var(--amber)',bg:'var(--amber-bg)',label:'Grey area'};return{key:'green',color:'var(--green)',bg:'var(--green-bg)',label:'Predominantly administrative'}}
+function escapeHtml(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function renderVarBlock(container,def){const block=document.createElement('div');block.className='var-block';const head=document.createElement('div');head.className='var-head';head.innerHTML=`<span class="name">${def.label}</span><span class="code mono">${def.key}</span>`;const seg=document.createElement('div');seg.className='seg';[0,1,2,3].forEach(v=>{const b=document.createElement('button');b.textContent=v;if(scores[def.key]===v)b.classList.add('sel');b.addEventListener('click',()=>{scores[def.key]=v;renderVars();updateResults()});seg.appendChild(b)});const anchor=document.createElement('div');anchor.className='anchor-text';anchor.textContent=def.anchors[scores[def.key]];block.append(head,seg,anchor);container.appendChild(block)}
+function renderVars(){const legal=document.getElementById('legalVars');legal.innerHTML='';LEGAL_VARS.forEach(d=>renderVarBlock(legal,d));const eco=document.getElementById('ecoVars');eco.innerHTML='';ECO_VARS.forEach(d=>renderVarBlock(eco,d))}
+function renderTriggers(){const grid=document.getElementById('triggerGrid');grid.innerHTML='';TRIGGERS.forEach(tr=>{const card=document.createElement('div');card.className='trig-card'+(activeTriggers.has(tr.id)?' checked':'');card.innerHTML=`<div class="trig-check"><svg viewBox="0 0 24 24" fill="none" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div><div><p class="trig-name">${tr.name}</p><p class="trig-desc">${tr.desc}</p></div>`;card.addEventListener('click',()=>{if(activeTriggers.has(tr.id))activeTriggers.delete(tr.id);else activeTriggers.add(tr.id);renderTriggers();updateResults()});grid.appendChild(card)})}
+function renderLegend(){const bands=[{key:'green',color:'var(--green)',range:'0.0 – 3.9',label:'Predominantly administrative'},{key:'amber',color:'var(--amber)',range:'4.0 – 6.9',label:'Grey area'},{key:'red',color:'var(--red)',range:'7.0 – 10.0',label:'High criminal relevance'},{key:'pink',color:'var(--pink)',range:'> 10',label:'Exceptional range'}];const wrap=document.getElementById('legend');wrap.innerHTML='';const cur=bandFor(computeFor(scores,activeTriggers.size).idpam).key;bands.forEach(b=>{const div=document.createElement('div');div.className='legend-item'+(b.key===cur?' active':'');div.style.color=b.color;div.innerHTML=`<span class="dot" style="background:${b.color}"></span><span>${b.range} — ${b.label}</span>`;wrap.appendChild(div)})}
+function updateResults(){const res=computeFor(scores,activeTriggers.size);const band=bandFor(res.idpam);document.getElementById('resultBox').style.background=band.bg;document.getElementById('bandLabel').textContent=band.label;document.getElementById('bandLabel').style.color=band.color;document.getElementById('idpamValue').style.color=band.color;document.getElementById('idpamValue').textContent=res.idpam.toFixed(1);document.getElementById('lcVal').textContent=res.LC.toFixed(2);document.getElementById('ecVal').textContent=res.EC.toFixed(2);document.getElementById('baseVal').textContent=res.base.toFixed(2);document.getElementById('trigVal').textContent='+'+res.trigAdd;renderLegend()}
+function loadCases(){try{return JSON.parse(localStorage.getItem('ledat_cases')||'[]')}catch(e){return[]}}
+function saveCases(list){localStorage.setItem('ledat_cases',JSON.stringify(list))}
+function bandBadge(key){const map={green:['var(--green)','var(--green-bg)','Predominantly administrative'],amber:['var(--amber)','var(--amber-bg)','Grey area'],red:['var(--red)','var(--red-bg)','High criminal relevance'],pink:['var(--pink)','var(--pink-bg)','Exceptional range']};const m=map[key];return `<span class="badge" style="color:${m[0]};background:${m[1]}">${m[2]}</span>`}
+function renderHistory(){const list=loadCases();const q=document.getElementById('searchInput').value.toLowerCase();const filtered=list.filter(c=>c.name.toLowerCase().includes(q)||c.reference.toLowerCase().includes(q));const wrap=document.getElementById('histTableWrap');if(!list.length){wrap.innerHTML='<div class="empty-state">No cases saved yet.</div>';return}if(!filtered.length){wrap.innerHTML='<div class="empty-state">No case matches your search.</div>';return}let rows='';filtered.slice().reverse().forEach(c=>{const cmp=compareMode?`<td><input type="checkbox" class="compare-checkbox" data-id="${c.id}" ${selectedForCompare.has(c.id)?'checked':''}></td>`:'';const cmpHead=compareMode?'<th></th>':'';rows+=`<tr>${cmp}<td>${escapeHtml(c.name)}</td><td>${escapeHtml(c.reference)}</td><td class="mono">${new Date(c.date).toLocaleDateString()}</td><td class="mono">${c.LC.toFixed(2)}</td><td class="mono">${c.EC.toFixed(2)}</td><td class="mono">${c.idpam.toFixed(2)}</td><td>${bandBadge(c.bandKey)}</td><td><div class="row-actions"><button data-act="load" data-id="${c.id}">Load</button><button data-act="del" data-id="${c.id}">Delete</button></div></td></tr>`;wrap.innerHTML=`<table class="hist-table"><thead><tr>${cmpHead}<th>Case</th><th>Reference</th><th>Date</th><th>LC</th><th>EC</th><th>IDPAm</th><th>Band</th><th>Actions</th></tr></thead><tbody>${rows}</tbody></table>`});wrap.querySelectorAll('[data-act]').forEach(btn=>btn.addEventListener('click',()=>{const id=btn.getAttribute('data-id');const act=btn.getAttribute('data-act');const list=loadCases();const c=list.find(x=>x.id===id);if(act==='load'){scores={...c.scores};activeTriggers=new Set(c.triggers);document.getElementById('caseName').value=c.name;document.getElementById('caseRef').value=c.reference;document.getElementById('caseNotes').value=c.notes;renderVars();renderTriggers();updateResults();window.scrollTo({top:0,behavior:'smooth'})}else if(act==='del'){saveCases(list.filter(x=>x.id!==id));selectedForCompare.delete(id);renderHistory()}}));if(compareMode){wrap.querySelectorAll('.compare-checkbox').forEach(cb=>cb.addEventListener('change',()=>{const id=cb.getAttribute('data-id');if(cb.checked){if(selectedForCompare.size>=3){cb.checked=false;return}selectedForCompare.add(id)}else selectedForCompare.delete(id);document.getElementById('compareGoBtn').style.display=selectedForCompare.size>=2?'inline-block':'none'}))}}
+function renderCompare(){const list=loadCases();const cases=Array.from(selectedForCompare).map(id=>list.find(c=>c.id===id)).filter(Boolean);const summary=document.getElementById('compareSummary');const cards=document.getElementById('compareCards');summary.innerHTML='';cards.innerHTML='';if(cases.length<2){summary.innerHTML='<div class="empty-state">Select at least two cases in compare mode.</div>';return}const tableRows=cases.map(c=>`<tr><td>${escapeHtml(c.name)}</td><td class="mono">${c.LC.toFixed(2)}</td><td class="mono">${c.EC.toFixed(2)}</td><td class="mono">${c.base.toFixed(2)}</td><td class="mono">+${Math.min(c.triggers.length,2)}</td><td class="mono">${c.idpam.toFixed(2)}</td></tr>`).join('');summary.innerHTML=`<table class="hist-table"><thead><tr><th>Case</th><th>LC</th><th>EC</th><th>Base</th><th>Triggers</th><th>IDPAm</th></tr></thead><tbody>${tableRows}</tbody></table>`;cases.forEach(c=>{const band=bandFor(c.idpam);const trigNames=c.triggers.map(id=>(TRIGGERS.find(t=>t.id===id)||{name:id}).name).join(', ');const div=document.createElement('div');div.className='compare-side-card';div.style.borderLeftColor=band.color;div.innerHTML=`<h3 style="margin:0 0 10px;font-size:15px">${escapeHtml(c.name)}</h3><div class="res-row"><span class="lab">Band</span><span class="val" style="color:${band.color}">${band.label}</span></div><div class="res-row"><span class="lab">Reference</span><span class="val">${escapeHtml(c.reference||'—')}</span></div><div class="res-row"><span class="lab">Notes</span><span class="val">${escapeHtml(c.notes||'—')}</span></div><div class="res-row"><span class="lab">Triggers</span><span class="val">${escapeHtml(trigNames||'—')}</span></div>`;cards.appendChild(div)})}
+function switchView(name){document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));document.getElementById('view-'+name).classList.add('active');document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active',b.getAttribute('data-view')===name));if(name==='compare')renderCompare()}
+document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>switchView(b.getAttribute('data-view'))));document.getElementById('backBtn').addEventListener('click',()=>switchView('calc'));
+document.getElementById('saveCaseBtn').addEventListener('click',()=>{const name=document.getElementById('caseName').value.trim();if(!name){alert('Enter a case name before saving.');return}const res=computeFor(scores,activeTriggers.size);const band=bandFor(res.idpam);const list=loadCases();list.push({id:'c'+Date.now()+Math.random().toString(36).slice(2,7),name,reference:document.getElementById('caseRef').value.trim(),notes:document.getElementById('caseNotes').value.trim(),date:new Date().toISOString(),scores:{...scores},triggers:Array.from(activeTriggers),LC:res.LC,EC:res.EC,base:res.base,idpam:res.idpam,bandKey:band.key});saveCases(list);document.getElementById('caseName').value='';document.getElementById('caseRef').value='';document.getElementById('caseNotes').value='';renderHistory()});
+document.getElementById('searchInput').addEventListener('input',renderHistory);
+document.getElementById('toggleCompareModeBtn').addEventListener('click',function(){compareMode=!compareMode;selectedForCompare.clear();this.textContent=compareMode?'Cancel':'Compare';document.getElementById('compareGoBtn').style.display='none';renderHistory()});
+document.getElementById('compareGoBtn').addEventListener('click',()=>switchView('compare'));
+document.getElementById('themeToggle').addEventListener('click',()=>{const cur=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',cur)});
+document.getElementById('langToggle').addEventListener('click',()=>alert('The full bilingual layer can be connected from your existing ES/EN WordPress version.'));
+renderVars();renderTriggers();updateResults();renderHistory();
+</script>
+</body>
+</html>
