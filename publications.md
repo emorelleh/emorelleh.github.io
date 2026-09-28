@@ -40,9 +40,11 @@ permalink: /publications/
           <em>Critical Criminology</em>.
         </li>
         <li>
-          Morelle-Hungría, E.
-          <a href="https://doi.org/10.12688/openreseurope.24170.1">Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments</a>.
-          <em>Open Research Europe, 6</em>, 209.
+         Morelle-Hungría, E.
+  <a href="https://doi.org/10.12688/openreseurope.24170.2">
+    Ecological harm and criminal thresholds: A pilot legal-ecological coding framework for environmental crime judgments
+  </a>.
+  <em>Open Research Europe, 6</em>, 209, 2026.
         </li>
         <li>
           Morelle-Hungría, E.
