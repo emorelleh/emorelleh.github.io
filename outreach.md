@@ -45,8 +45,29 @@ permalink: /outreach/
       </p>
     </section>
 
-    <section id="public-engagement">
+    <section id="initiatives">
       <h2>Public engagement initiatives</h2>
+
+      <div class="outreach-item">
+        <h3>Jean Monnet Chair for EU BlueCrime and Ocean Governance</h3>
+
+        <p class="outreach-meta">
+          Chair holder · Universitat Jaume I · From October 2026
+        </p>
+
+        <p>
+          The Jean Monnet Action EU BlueCrime and Ocean Governance
+          (EU BLUECRIME-GOV) supports teaching, research, and public engagement
+          on European Union environmental criminal law, maritime governance,
+          marine protection, and ocean-related environmental harm.
+        </p>
+
+        <p>
+          The Chair is designed to connect academic work with legal and policy
+          debates on environmental crime, coastal risk, marine ecosystems,
+          and European approaches to ocean governance.
+        </p>
+      </div>
 
       <div class="outreach-item">
         <h3>
@@ -91,8 +112,8 @@ permalink: /outreach/
         </p>
 
         <p>
-          Its knowledge-exchange activities seek to connect researchers
-          from different disciplines with public authorities, civil-society
+          Its knowledge-exchange activities connect researchers from
+          different disciplines with public authorities, civil-society
           organisations, environmental professionals, and actors working
           in the blue economy.
         </p>
@@ -100,24 +121,26 @@ permalink: /outreach/
 
       <div class="outreach-item">
         <h3>
-          <a href="https://clinilex.uji.es">
+          <a href="https://clinilex.uji.es/">
             Legal and Criminological Clinic
           </a>
         </h3>
 
         <p class="outreach-meta">
-          Director 2023-2026· Universitat Jaume I
+          Former Director · Universitat Jaume I · 2023–2026
         </p>
 
         <p>
-          The Clinic connects university teaching and research with real
-          legal, criminological, and social needs. It develops supervised
-          projects in cooperation with public institutions, professionals,
-          foundations, and civil-society organisations.
+          From 2023 to September 2026, I directed the Legal and
+          Criminological Clinic at Universitat Jaume I. The Clinic linked
+          university teaching and research with real legal, criminological,
+          and social needs through supervised projects developed in
+          cooperation with public institutions, professionals, foundations,
+          and civil-society organisations.
         </p>
 
         <p>
-          Its activities promote practical learning, professional
+          Its activities promoted practical learning, professional
           responsibility, access to knowledge, environmental justice,
           and engagement with communities and groups facing situations
           of vulnerability.
@@ -128,77 +151,19 @@ permalink: /outreach/
     <section id="media">
       <h2>Media and public conversations</h2>
 
-      <div class="outreach-item">
-        <h3>
-          <a href="https://espaitec.uji.es/puede-ser-el-mar-victima-de-un-crimen/">
-            Can the sea be the victim of a crime?
-          </a>
-        </h3>
+      <p>
+        My research has also been shared through interviews, podcasts,
+        press articles, radio programmes, television appearances,
+        and public conversations on marine harm, ecological justice,
+        green and blue criminology, and environmental governance.
+      </p>
 
-        <p class="outreach-meta">
-          InnoBar podcast · Espaitec, Universitat Jaume I · 2025
-        </p>
-
-        <p>
-          A public conversation about blue criminology, marine environmental
-          crime, ecological victimisation, and the possibility of understanding
-          seas and oceans as entities affected by crime and harm.
-        </p>
-      </div>
-
-      <div class="outreach-item">
-        <h3>
-          <a href="https://www.ehu.eus/es/web/instituto-vasco-criminologia/laboratorio-de-teoria-y-practica-de-la-justicia-restaurativa/proyecto-jr-y-arte">
-            Planetary boundaries, ecological justice, and harm to oceans
-          </a>
-        </h3>
-
-        <p class="outreach-meta">
-          Instituto Vasco de Criminología · 2025
-        </p>
-
-        <p>
-          A conversation about green and blue criminology, planetary
-          boundaries, ecological justice, and restorative responses
-          to harm affecting marine ecosystems.
-        </p>
-      </div>
-
-      <div class="outreach-item">
-        <h3>
-          <a href="https://cadenaser.com/baleares/2025/12/26/el-litoral-de-ibiza-esta-en-una-situacion-ecologica-comprometida-radio-ibiza/">
-            The ecological condition of the Ibiza coastline
-          </a>
-        </h3>
-
-        <p class="outreach-meta">
-          Radio Ibiza · Cadena SER · 2025
-        </p>
-
-        <p>
-          Media discussion of ecological evidence concerning coastal
-          ecosystems, environmental pressures, fish communities,
-          and the condition of marine habitats in Ibiza.
-        </p>
-      </div>
-
-      <div class="outreach-item">
-        <h3>
-          <a href="https://castellonaldia.elmundo.es/castellon/educacion/hay-que-decrecer-de-forma-sostenible-se-han-sobrepasado-limites-planetarios-HG20452703">
-            Environmental harm and planetary boundaries
-          </a>
-        </h3>
-
-        <p class="outreach-meta">
-          El Mundo · Castellón al Día · 2025
-        </p>
-
-        <p>
-          An interview on blue crime, ecological damage, planetary
-          boundaries, and the role of research and public engagement
-          in marine environmental protection.
-        </p>
-      </div>
+      <p>
+        Because these activities are extensive and regularly updated,
+        they are best presented in a dedicated archive.
+        A complete record of media collaborations is available on the
+        <a href="{{ '/media/' | relative_url }}">Media and public engagement archive</a>.
+      </p>
     </section>
 
     <section id="events">
@@ -238,9 +203,9 @@ permalink: /outreach/
         </p>
 
         <p>
-          An interdisciplinary programme on blue criminology, marine
-          environmental protection, ecological evidence, and the legal
-          and governance challenges surrounding
+          This interdisciplinary programme addresses blue criminology,
+          marine environmental protection, ecological evidence, and the
+          legal and governance challenges surrounding
           <em>Posidonia oceanica</em>.
         </p>
       </div>
@@ -322,6 +287,14 @@ permalink: /outreach/
           UJI research profile
         </a>.
       </p>
+
+      <p>
+        Media interviews, press collaborations, radio contributions,
+        podcasts, and television appearances are collected in the
+        <a href="{{ '/media/' | relative_url }}">
+          Media and public engagement archive
+        </a>.
+      </p>
     </section>
 
     <section id="contact">
@@ -335,9 +308,7 @@ permalink: /outreach/
 
       <p>
         For outreach and collaboration enquiries, contact me at
-        <a href="mailto:esteban.morelle@uji.es">
-          esteban.morelle@uji.es
-        </a>.
+        <a href="mailto:esteban.morelle@uji.es">esteban.morelle@uji.es</a>.
       </p>
     </section>
 
@@ -347,33 +318,13 @@ permalink: /outreach/
     <p>On this page</p>
 
     <nav aria-label="Outreach page sections">
-      <a href="#outreach-approach">
-        Outreach and knowledge exchange
-      </a>
-
-      <a href="#public-engagement">
-        Public engagement initiatives
-      </a>
-
-      <a href="#media">
-        Media and public conversations
-      </a>
-
-      <a href="#events">
-        Events and professional engagement
-      </a>
-
-      <a href="#societal-collaboration">
-        Working with society
-      </a>
-
-      <a href="#resources">
-        Public resources
-      </a>
-
-      <a href="#contact">
-        Contact and collaboration
-      </a>
+      <a href="#outreach-approach">Outreach and knowledge exchange</a>
+      <a href="#initiatives">Public engagement initiatives</a>
+      <a href="#media">Media and public conversations</a>
+      <a href="#events">Events and professional engagement</a>
+      <a href="#societal-collaboration">Working with society</a>
+      <a href="#resources">Public resources</a>
+      <a href="#contact">Contact and collaboration</a>
     </nav>
   </aside>
 
