@@ -32,17 +32,18 @@ permalink: /publications/
           (pp. 205–246). Tirant lo Blanch, 2026. ISBN 979-13-7040-190-0.
         </li>
 
-        <li>
-          Morelle-Hungría, E., White, R., & Hamilton, R.
-          <a href="https://doi.org/10.5204/ijcjsd.4544"><em>Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean</em></a>.
-          <em>International Journal for Crime, Justice and Social Democracy</em>.
-        </li>
       </ul>
     </section>
 
     <section id="y2026">
       <h2>2026</h2>
       <ul class="publication-list">
+        <li>
+  Morelle-Hungría, E., White, R., & Hamilton, R.
+  <a href="https://doi.org/10.5204/ijcjsd.4544"><em>Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean</em></a>.
+  <em>International Journal for Crime, Justice and Social Democracy</em>.
+</li>
+
         <li>
           Morelle-Hungría, E., White, R., South, N., Dobson, J. Y., Fonfría Subirós, E., & Bordehore Fontanet, C.
           <a href="https://doi.org/10.1007/s10612-026-09904-0">Bluewashing and the illusion of sustainability in the cruise industry</a>.
