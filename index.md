@@ -152,6 +152,12 @@ description: "Environmental criminal law, green and blue criminology, marine har
         </p>
 
         <ul class="reference-list">
+        <strong>Morelle Hungría, Esteban; White, Rob; and Hamilton, Rhianna.</strong>
+    <a href="https://doi.org/10.5204/ijcjsd.4544">
+      Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean
+    </a>.
+    <em>International Journal for Crime, Justice and Social Democracy</em>, Online First, 2026.
+    
           <li>
             <strong>Morelle Hungría, Esteban M.; South, Nigel; White, Rob; Dobson, John Y.; Fonfría Subirós, Eva; and Bordehore Fontanet, César.</strong>
             <a href="https://doi.org/10.1007/s10612-026-09904-0">
