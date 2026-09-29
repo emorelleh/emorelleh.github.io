@@ -157,9 +157,9 @@ description: "Environmental criminal law, green and blue criminology, marine har
       Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean
     </a>.
     <em>International Journal for Crime, Justice and Social Democracy</em>, Online First, 2026.
-    
           <li>
-          
+
+          <li>
             <strong>Morelle Hungría, Esteban M.; South, Nigel; White, Rob; Dobson, John Y.; Fonfría Subirós, Eva; and Bordehore Fontanet, César.</strong>
             <a href="https://doi.org/10.1007/s10612-026-09904-0">
               Bluewashing and the illusion of sustainability in the cruise industry
