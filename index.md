@@ -275,8 +275,6 @@ description: "Environmental criminal law, green and blue criminology, marine har
         </ul>
       </section>
 
-    </article>
-
     <aside class="academic-toc" aria-label="On this page">
       <p>On this page</p>
 
@@ -286,6 +284,5 @@ description: "Environmental criminal law, green and blue criminology, marine har
       <a href="#selected-publications">Selected publications</a>
       <a href="#affiliations">Affiliations and roles</a>
     </aside>
-
   </div>
 </div>
