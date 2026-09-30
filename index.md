@@ -20,8 +20,8 @@ description: "Environmental criminal law, green and blue criminology, marine har
     </p>
 
     <p class="academic-title">
-      Jean Monnet Chair holder, EU Blue Criminology and Ocean Governance
-      (BLUECRIME-GOV)
+      Jean Monnet Chair holder<br>
+      EU Blue Criminology and Ocean Governance (BLUECRIME-GOV)
     </p>
 
     <address class="academic-address">
@@ -103,6 +103,12 @@ description: "Environmental criminal law, green and blue criminology, marine har
         <p>
           The project runs from 1 October 2026 to 30 September 2029 under Grant Agreement
           No. 101319975 — BLUECRIME-GOV.
+        </p>
+
+        <p>
+          <a href="{{ '/bluecrime-gov/' | relative_url }}">
+            Learn more about BLUECRIME-GOV
+          </a>
         </p>
 
         <div class="eu-funding-box">
