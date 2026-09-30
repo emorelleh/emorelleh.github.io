@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Esteban Morelle-Hungría
-description: "Environmental criminal law, green and blue criminology, marine harm, and ecological justice"
+description: "Environmental criminal law, green and blue criminology, marine harm, ecological justice, and EU ocean governance"
 ---
 
 <div class="academic-home">
@@ -17,6 +17,11 @@ description: "Environmental criminal law, green and blue criminology, marine har
 
     <p class="academic-title">
       Associate Professor of Criminal Law and Criminology
+    </p>
+
+    <p class="academic-title">
+      Jean Monnet Chair holder, EU Blue Criminology and Ocean Governance
+      (BLUECRIME-GOV)
     </p>
 
     <address class="academic-address">
@@ -47,11 +52,12 @@ description: "Environmental criminal law, green and blue criminology, marine har
         <h2>Biography</h2>
 
         <p>
-          I am an Associate Professor of Criminal Law and Criminology at the Universitat Jaume I,
-          where I teach and conduct research in criminology, criminal law, and criminal policy.
-          My academic work focuses on green criminology, environmental criminal law, and ecological
-          governance, with particular attention to marine environmental crime, ecological justice,
-          and ocean protection.
+          I am an Associate Professor of Criminal Law and Criminology at the Universitat Jaume I
+          and Jean Monnet Chair holder in EU Blue Criminology and Ocean Governance
+          (BLUECRIME-GOV). I teach and conduct research in criminology, criminal law, and
+          criminal policy. My academic work focuses on green criminology, environmental criminal
+          law, and ecological governance, with particular attention to marine environmental crime,
+          ecological justice, and ocean protection.
         </p>
 
         <p>
@@ -76,6 +82,49 @@ description: "Environmental criminal law, green and blue criminology, marine har
           in the <a href="{{ '/media/' | relative_url }}">Media</a> and
           <a href="{{ '/outreach/' | relative_url }}">Outreach</a> sections.
         </p>
+      </section>
+
+      <section id="jean-monnet-chair">
+        <h2>Jean Monnet Chair</h2>
+
+        <p>
+          Since 1 October 2026, I have held the <strong>Jean Monnet Chair in EU Blue
+          Criminology and Ocean Governance (BLUECRIME-GOV)</strong> at Universitat Jaume I.
+        </p>
+
+        <p>
+          BLUECRIME-GOV develops an academic and research programme on the European Union’s
+          response to crime and environmental harm in the marine environment. The Chair combines
+          Criminology, European Union Law, and the Humanities through an Earth system perspective,
+          with particular attention to blue criminology, environmental crime, marine protection,
+          ecological harm, and EU ocean governance.
+        </p>
+
+        <p>
+          The project runs from 1 October 2026 to 30 September 2029 under Grant Agreement
+          No. 101319975 — BLUECRIME-GOV.
+        </p>
+
+        <div class="eu-funding-box">
+          <img
+            class="eu-emblem"
+            src="{{ '/assets/css/assets/images/eu-flag.png' | relative_url }}"
+            alt="European Union flag"
+            width="120"
+            height="80"
+          >
+
+          <div>
+            <p><strong>Funded by the European Union.</strong></p>
+
+            <p class="eu-disclaimer">
+              Views and opinions expressed are however those of the author(s) only and do not
+              necessarily reflect those of the European Union or the European Education and
+              Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be
+              held responsible for them.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section id="research-interests">
@@ -152,12 +201,14 @@ description: "Environmental criminal law, green and blue criminology, marine har
         </p>
 
         <ul class="reference-list">
-        <strong>Morelle Hungría, Esteban; White, Rob; and Hamilton, Rhianna.</strong>
-    <a href="https://doi.org/10.5204/ijcjsd.4544">
-      Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean
-    </a>.
-    <em>International Journal for Crime, Justice and Social Democracy</em>, Online First, 2026.
           <li>
+            <strong>Morelle Hungría, Esteban; White, Rob; and Hamilton, Rhianna.</strong>
+            <a href="https://doi.org/10.5204/ijcjsd.4544">
+              Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean
+            </a>.
+            <em>International Journal for Crime, Justice and Social Democracy</em>,
+            Online First, 2026.
+          </li>
 
           <li>
             <strong>Morelle Hungría, Esteban M.; South, Nigel; White, Rob; Dobson, John Y.; Fonfría Subirós, Eva; and Bordehore Fontanet, César.</strong>
@@ -226,8 +277,9 @@ description: "Environmental criminal law, green and blue criminology, marine har
           </li>
 
           <li>
-            <strong>Jean Monnet Chair for EU BlueCrime and Ocean Governance (EU BLUECRIME-GOV)</strong><br>
-            Chair holder, from October 2026.
+            <strong>Jean Monnet Chair in EU Blue Criminology and Ocean Governance (BLUECRIME-GOV)</strong><br>
+            Chair holder, Universitat Jaume I, 1 October 2026–30 September 2029.<br>
+            Grant Agreement No. 101319975.
           </li>
 
           <li>
@@ -275,14 +327,18 @@ description: "Environmental criminal law, green and blue criminology, marine har
         </ul>
       </section>
 
+    </article>
+
     <aside class="academic-toc" aria-label="On this page">
       <p>On this page</p>
 
       <a href="#biography">Biography</a>
+      <a href="#jean-monnet-chair">Jean Monnet Chair</a>
       <a href="#research-interests">Research interests</a>
       <a href="#teaching">Teaching</a>
       <a href="#selected-publications">Selected publications</a>
       <a href="#affiliations">Affiliations and roles</a>
     </aside>
+
   </div>
 </div>
