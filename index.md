@@ -1,6 +1,3 @@
-Aquí tienes el `index.md` completo, con una presentación breve de la cátedra y enlaces a su nueva web en la UJI. Mantengo las rutas de imágenes, las clases de estilo y el bloque de financiación que ya utilizabas.
-
-```html
 ---
 layout: default
 title: Esteban Morelle-Hungría
