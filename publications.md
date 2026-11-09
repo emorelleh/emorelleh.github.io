@@ -24,14 +24,6 @@ permalink: /publications/
           Editorial Aula Magna / McGraw-Hill Interamericana de España, 2026.
           ISBN 979-13-88377-11-2; eBook ISBN 979-13-88377-60-0.
         </li>
-
-        <li>
-          Morelle-Hungría, E.
-          Contaminación por plásticos y Derecho penal: reflexiones sobre las dificultades de una protección cuasi imposible.
-          In A. Fernández Hernández (Dir.), <em>Seguridad nacional y Derecho frente al cambio climático</em>
-          (pp. 205–246). Tirant lo Blanch, 2026. ISBN 979-13-7040-190-0.
-        </li>
-
       </ul>
     </section>
 
@@ -39,13 +31,22 @@ permalink: /publications/
       <h2>2026</h2>
       <ul class="publication-list">
         <li>
-  Morelle-Hungría, E., White, R., & Hamilton, R.
-  <a href="https://doi.org/10.5204/ijcjsd.4544"><em>Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean</em></a>.
-  <em>International Journal for Crime, Justice and Social Democracy</em>.
-</li>
+          Morelle-Hungría, E.
+          Contaminación por plásticos y Derecho penal: reflexiones sobre las dificultades de una protección cuasi imposible.
+          In A. Fernández Hernández (Dir.),
+          <a href="https://editorial.tirant.com/es/libro/seguridad-nacional-y-derecho-frente-al-cambio-climatico-fernandez-hernandez-antonio-9791370401900"><em>Seguridad nacional y Derecho frente al cambio climático</em></a>
+          (pp. 205–246). Tirant lo Blanch.
+          ISBN 979-13-7040-190-0.
+        </li>
 
         <li>
-          Morelle-Hungría, E., White, R., South, N., Dobson, J. Y., Fonfría Subirós, E., & Bordehore Fontanet, C.
+          Morelle-Hungría, E., White, R., &amp; Hamilton, R.
+          <a href="https://doi.org/10.5204/ijcjsd.4544">Killing the Antarctic Krill: Assessing State–Corporate Environmental Crime in the Southern Ocean</a>.
+          <em>International Journal for Crime, Justice and Social Democracy</em>.
+        </li>
+
+        <li>
+          Morelle-Hungría, E., White, R., South, N., Dobson, J. Y., Fonfría Subirós, E., &amp; Bordehore Fontanet, C.
           <a href="https://doi.org/10.1007/s10612-026-09904-0">Bluewashing and the illusion of sustainability in the cruise industry</a>.
           <em>Critical Criminology</em>.
         </li>
@@ -59,7 +60,7 @@ permalink: /publications/
         <li>
           Morelle-Hungría, E.
           Integrating planetary boundaries into the definition of ecocide as an international crime.
-          In N. Barbero & N. Matalone (Dirs.),
+          In N. Barbero &amp; N. Matalone (Dirs.),
           <a href="https://editorialadhoc.com/producto/el-ecocidio-como-crimen-internacional/"><em>El ecocidio como crimen internacional</em></a>
           (pp. 166–197). Ad-Hoc.
         </li>
@@ -91,17 +92,18 @@ permalink: /publications/
           Morelle-Hungría, E.
           Restauración azul: el impacto de las nuevas entidades como límite planetario dentro de la justicia restaurativa verde.
           In G. Varona (Ed.), <em>Criminología verde: alternativas a la impunidad y al punitivismo ante los daños bio-socio-ecológicos</em>
-          (pp. 127–148). Dykinson. ISBN 979-13-7006-032-9.
+          (pp. 127–148). Dykinson.
+          ISBN 979-13-7006-032-9.
         </li>
 
         <li>
-          Morelle-Hungría, E., Buluc Vasile, B. N., Flors Llorens, D., Foschetti Aragao, M. E., & Juárez Garcia, Á.
+          Morelle-Hungría, E., Buluc Vasile, B. N., Flors Llorens, D., Foschetti Aragao, M. E., &amp; Juárez Garcia, Á.
           <a href="https://doi.org/10.5281/zenodo.15024172">Jurisprudencia sobre el Delito Ecológico en España (2015–2024): Análisis de Sentencias del Artículo 325 del Código Penal en la Base de Datos CENDOJ</a>
           [Data set]. Zenodo.
         </li>
 
         <li>
-          Morelle-Hungría, E., South, N., Serra Palao, P., Faria, R., & Martens, G.
+          Morelle-Hungría, E., South, N., Serra Palao, P., Faria, R., &amp; Martens, G.
           <a href="https://repositori.uji.es/xmlui/handle/10234/221219"><em>Reflective Contribution: Establishing Planetary Boundaries to Safeguard the Health of the Planet: Ecosystems as Victims and Legal Interests</em></a>.
           Repositori Universitat Jaume I.
         </li>
@@ -112,7 +114,7 @@ permalink: /publications/
       <h2>2024</h2>
       <ul class="publication-list">
         <li>
-          Morelle-Hungría, E., & Serra Palao, P.
+          Morelle-Hungría, E., &amp; Serra Palao, P.
           <a href="https://books.google.es/books?id=jOEfEQAAQBAJ">Human impacts on <em>Posidonia oceanica</em> in the Mediterranean Sea: Bringing together ecological law and green criminology</a>.
           In <em>Ecological Law in Practice: Case Studies for a Transformative Approach</em>. Routledge.
         </li>
@@ -130,13 +132,13 @@ permalink: /publications/
         </li>
 
         <li>
-          Morelle-Hungría, E., & Serra, P.
+          Morelle-Hungría, E., &amp; Serra, P.
           <a href="https://doi.org/10.1093/acrefore/9780190264079.013.771">The Harms and Crimes Against Plant Species</a>.
           <em>Oxford Research Encyclopedia of Criminology</em>.
         </li>
 
         <li>
-          Morelle-Hungría, E., & Serra, P.
+          Morelle-Hungría, E., &amp; Serra, P.
           <a href="https://doi.org/10.12688/openreseurope.16365.2">Ecocriminological analysis of brine in aquatic ecosystems: Impacts on <em>Posidonia oceanica</em> and the search for restorative justice solutions</a>.
           <em>Open Research Europe, 3</em>, 130.
         </li>
@@ -145,17 +147,18 @@ permalink: /publications/
           Morelle-Hungría, E.
           La (des)protección de la fauna marina desde un enfoque ecocriminológico a la luz de los límites planetarios.
           In <em>La protección de la biodiversidad marina en un contexto de cambio global: aspectos biológicos, éticos y jurídicos</em>.
-          Tirant lo Blanch. ISBN 978-84-1169-088-1.
+          Tirant lo Blanch.
+          ISBN 978-84-1169-088-1.
         </li>
 
         <li>
-          Morelle-Hungría, E., & Raga Vives, A.
+          Morelle-Hungría, E., &amp; Raga Vives, A.
           Innovación educativa a través del sistema de casos: la criminalidad económica y ecológica (CRIMECO).
           In <em>La innovación educativa en Derecho: un compromiso continuo con la docencia</em>. Colex.
         </li>
 
         <li>
-          Morelle-Hungría, E., Giménez Ruiz, E., Pérez Silvestre, A., Romero Ortolà, P., Remolí López, G., Vera Raga Vives, A., & Carvalho da Silva, J.
+          Morelle-Hungría, E., Giménez Ruiz, E., Pérez Silvestre, A., Romero Ortolà, P., Remolí López, G., Vera Raga Vives, A., &amp; Carvalho da Silva, J.
           <em>I Encuesta de percepción de seguridad y victimización Castellón 2023: inseguridad y políticas públicas de seguridad en el ámbito municipal</em>.
           Clínica Jurídica y Criminológica, Universitat Jaume I.
         </li>
@@ -166,26 +169,27 @@ permalink: /publications/
       <h2>2023</h2>
       <ul class="publication-list">
         <li>
-          Morelle-Hungría, E., Fonfría, E. S., Dobson, J. Y., & Bordehore Fontanet, C.
+          Morelle-Hungría, E., Fonfría, E. S., Dobson, J. Y., &amp; Bordehore Fontanet, C.
           <a href="https://www.kriminologie.de/index.php/krimoj/article/view/283">Underwater noise pollution as an ecological crime: A global problem in the Anthropocene</a>.
           <em>Kriminologie – Das Online-Journal</em>.
         </li>
 
         <li>
-          García Ruiz, A., & Morelle-Hungría, E.
+          García Ruiz, A., &amp; Morelle-Hungría, E.
           <em>Criminología verde: criminalidad y daños ecológicos</em>.
-          Aranzadi Civitas. ISBN 978-84-1162-211-0.
+          Aranzadi Civitas.
+          ISBN 978-84-1162-211-0.
         </li>
 
         <li>
-          Morelle-Hungría, E., & Fernández Hernández, A.
+          Morelle-Hungría, E., &amp; Fernández Hernández, A.
           <a href="https://www.revista-e-criminologia.net/_files/ugd/6d2944_9b27252eb6b24cb88cab34b3bc1f1ff8.pdf">Introducción de estudios de criminalidad en la administración local: análisis de la percepción de seguridad y victimización en la isla de Eivissa 2021</a>.
           <em>Revista Electrónica de Criminología</em>.
         </li>
 
         <li>
           Morelle-Hungría, E.
-          <a href="https://repositori.uji.es/xmlui/bitstream/handle/10234/202314/84183.pdf?sequence=1&isAllowed=y">El daño ecológico en la costa gallega por el vertido del Prestige a la luz de la ecocriminología: ecosistema como víctima</a>.
+          <a href="https://repositori.uji.es/xmlui/bitstream/handle/10234/202314/84183.pdf?sequence=1&amp;isAllowed=y">El daño ecológico en la costa gallega por el vertido del Prestige a la luz de la ecocriminología: ecosistema como víctima</a>.
           <em>Revista de Victimología, 15</em>, 233–252.
         </li>
       </ul>
@@ -207,9 +211,10 @@ permalink: /publications/
         </li>
 
         <li>
-          Sanz Larruga, F. J., Ortiz García, M., & Morelle-Hungría, E.
+          Sanz Larruga, F. J., Ortiz García, M., &amp; Morelle-Hungría, E.
           <a href="https://www.thomsonreuters.es/es/tienda/duo-papel-ebook/analisis-de-la-proteccion-del-medio-marino-tras-una-decada-del-enfoque--ecosistemico--estado-actual-y-nuevos-retosduo/p/10020969"><em>Análisis de la protección del medio marino tras una década del enfoque ecosistémico: estado actual y nuevos retos</em></a>.
-          Thomson Reuters Aranzadi. ISBN 978-84-1124-910-2.
+          Thomson Reuters Aranzadi.
+          ISBN 978-84-1124-910-2.
         </li>
 
         <li>
@@ -223,7 +228,8 @@ permalink: /publications/
           Morelle-Hungría, E.
           Mar Menor y límites planetarios: análisis ecocriminológico frente al colapso de ecosistemas acuáticos.
           In <em>Estudios sobre la efectividad del Derecho de la biodiversidad y del cambio climático</em>
-          (pp. 223–238). Tirant lo Blanch. ISBN 978-84-1147-464-1.
+          (pp. 223–238). Tirant lo Blanch.
+          ISBN 978-84-1147-464-1.
         </li>
       </ul>
     </section>
@@ -238,7 +244,7 @@ permalink: /publications/
         </li>
 
         <li>
-          Colás Turégano, A., & Morelle-Hungría, E.
+          Colás Turégano, A., &amp; Morelle-Hungría, E.
           <a href="http://criminet.ugr.es/recpc/23/recpc23-13.pdf">El derecho ambiental frente a los delitos ecológicos: la eficacia y eficiencia penal a debate</a>.
           <em>Revista Electrónica de Ciencia Penal y Criminología, 23</em>(13), 1–34.
         </li>
@@ -280,7 +286,7 @@ permalink: /publications/
 
         <li>
           Morelle-Hungría, E.
-          <a href="https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=422981&d=1">La Ley 8/2020, de 30 de julio, de protección y ordenación del litoral de Cataluña: la necesaria visión holística en la planificación ambiental</a>.
+          <a href="https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=422981&amp;d=1">La Ley 8/2020, de 30 de julio, de protección y ordenación del litoral de Cataluña: la necesaria visión holística en la planificación ambiental</a>.
           <em>Revista General de Derecho Administrativo, 55</em>.
         </li>
 
@@ -375,7 +381,7 @@ permalink: /publications/
       <ul class="publication-list">
         <li>
           Morelle-Hungría, E.
-          <a href="https://www.researchgate.net/publication/321884072_LA_PESCA_ILEGAL_COMO_ACTIVIDAD_DELICTIVA_UNA_APROXIMACION_A_LA_PROBLEMATICA_ESPANOLA_CRIMINOLOGICAL_PERSPECTIVE_OF_ILLEGAL_FISHING_AN_APROACH_TO_THE_SPANISH_PROBLEM">La pesca ilegal como actividad delictiva: una aproximación a la problemática española</a>.
+          <a href="https://www.researchgate.net/publication/321884072_LA_PESCA_ILEGAL_COMO_ACTIVIDAD_DELICTIVA_UNA_APROXIMACION_A_LA_PROBLEMATICA_ESPANOLA_CRIMINOLOGICAL_PERSPECTIVE_OF_ILLEGAL_FISHING_AN_APPROACH_TO_THE_SPANISH_PROBLEM">La pesca ilegal como actividad delictiva: una aproximación a la problemática española</a>.
           <em>Actualidad Jurídica Ambiental, 74</em>, 7–32.
         </li>
 
